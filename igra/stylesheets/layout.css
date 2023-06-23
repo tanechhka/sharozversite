@@ -1,0 +1,1560 @@
+/* основное */
+
+
+.button {
+  position: absolute;
+  width: 31.04vw;
+  height: 7.43vw;
+  border: 0.49vw solid #5EE453;
+  border-radius: 6.25vw;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0.69vw 0.69vw 0px 0px #5EE453;
+}
+.moveicon {
+  position: relative;
+  width: 3.82vw;
+  height: 3.82vw;
+  background: url(../images/movewhite.svg);
+  background-size: 100%;
+}
+
+.moveicon2 {
+  position: relative;
+  width: 3.82vw;
+  height: 3.82vw;
+  background: url(../images/move.svg);
+  background-size: 100%;
+}
+
+.rotateicon {
+  position: relative;
+  width: 3.26vw;
+  height: 3.45vw;
+  background: url(../images/rotate.svg);
+  background-size: 100%;
+}
+.button:hover {
+  box-shadow: none;
+}
+
+.none {
+  display: none;
+}
+
+.mouse1 {
+  position: absolute;
+  width: 4.31vw;
+  height: 6.60vw;
+  margin: 1.04vw 0px 1.04vw 0px;
+  background: url(../images/mouse1.svg);
+  background-size: 100%;
+  z-index: 1;
+}
+
+.move {
+  position: absolute;
+  width: 4.31vw;
+  height: 11.81vw;
+}
+
+.rotates {
+  position: absolute;
+  width: 4.31vw;
+  height: 11.81vw;
+}
+
+.mouseblack {
+  position: absolute;
+  width: 4.31vw;
+  height: 6.60vw;
+  margin: 1.04vw 0px 1.04vw 0px;
+  background: url(../images/mouse3.svg);
+  background-size: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+
+}
+
+.mouse2 {
+  position: relative;
+  top: -1.7vw;
+  left: 0.69vw;
+  z-index: 1;
+  width: 1.39vw;
+  height: 1.81vw;
+  background: url(../images/mouse2.svg);
+  background-size: 100%;
+}
+
+.mouse3 {
+  position: relative;
+  top: -1.7vw;
+  left: 0.69vw;
+  z-index: 1;
+  width: 1.39vw;
+  height: 1.81vw;
+  background: url(../images/mouse4.svg);
+  background-size: 100%;
+}
+
+/* первый экран */
+.view1 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+
+.onetext {
+  position: absolute;
+  top: 49.31vw;
+  left: 4.17vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 2.22vw;
+  animation: one 1s ease-in;
+  width: 20.42vw;
+  height: 5vw;
+}
+
+.bighead {
+  position: absolute;
+  left: 29.31vw;
+  width: 72vw;
+  height: 72vw;
+  background: url(../images/head.svg);
+  background-size: 100%;
+}
+
+.pills {
+  position: absolute;
+  top: 9.79vw;
+  left: -4.93vw;
+  height: 12.64vw;
+  width: 23.61vw;
+  background: url(../images/pills.svg);
+  background-size: 100%;
+  transform: rotate(42deg);
+}
+
+.plastir {
+  position: absolute;
+  top: 10vw;
+  left: 17.92vw;
+  height: 8.33vw;
+  width: 23.61vw;
+  background: url(../images/plastir.svg);
+  background-size: 100%;
+  transform: rotate(46deg);
+}
+
+.nasos {
+  position: absolute;
+  top: 30vw;
+  left: 1.32vw;
+  height: 7.36vw;
+  width: 28.33vw;
+  background: url(../images/nasos.svg);
+  background-size: 100%;
+  transform: rotate(-36deg);
+}
+
+.rotate {
+  transform: rotate(30deg);
+  transition: all 3s;
+}
+
+#screen1 {
+  position: absolute;
+  top: 58.64vw;
+  left: 3.19vw;
+}
+#screen1 p {
+  position: relative;
+  top: 0.69vw;
+  left: 7.15vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+/* второй экран */
+.view2 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+
+.dog1 {
+  position: absolute;
+  top: 7.71vw;
+  left: 11.11vw;
+  width: 77.08vw;
+  height: 60.49vw;
+  background: url(../images/dog1.png);
+  background-size: 100%;
+}
+
+.whiteeye1 {
+  position: absolute;
+  top: 23.13vw;
+  left: 16.67vw;
+  width: 6.11vw;
+  height: 6.11vw;
+  border-radius: 100%;
+  background: white;
+}
+
+.blackeye1 {
+  width: 3.47vw;
+  height: 3.47vw;
+  background: url(../images/smalleye.svg);
+  background-size: 100%;
+  position: absolute;
+  left: 1.25vw;
+  border-radius: 100%;
+}
+
+.whiteeye2 {
+  position: absolute;
+  top: 24.65vw;
+  left: 26.94vw;
+  width: 6.11vw;
+  height: 6.11vw;
+  border-radius: 100%;
+  background: white;
+}
+
+.yazik {
+  position: absolute;
+  top: 37.50vw;
+  left: 20.42vw;
+  width: 5vw;
+  height: 5.69vw;
+  border-radius: 0 0 6.25vw 6.25vw;
+  background: #FBA7C5;
+}
+
+.blackyazik {
+  position: absolute;
+  left: 2.08vw;
+  width: 0.56vw;
+  height: 3.47vw;
+  border-radius: 0 0 6.25vw 6.25vw;
+  background: black;
+}
+
+#countdown {
+  position: relative;
+  top: 61.94vw;
+  left: 3.54vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+  display: flex;
+  margin: 0.69vw;
+  justify-content: space-between;
+  width: 9.72vw;
+  height: 5.07vw;
+}
+
+.ukazatel1 {
+  position: absolute;
+  top: 39.17vw;
+  left: 14.58vw;
+  width: 3.19vw;
+  height: 4.31vw;
+  transform: rotate(-120deg);
+  background: url(../images/ukazatel.svg);
+  background-size: 100%;
+}
+
+.ukazatel2 {
+  position: absolute;
+  top: 53.06vw;
+  left: 46.88vw;
+  width: 3.19vw;
+  height: 4.31vw;
+  transform: rotate(75deg);
+  background: url(../images/ukazatel.svg);
+  background-size: 100%;
+
+}
+
+.ukazatel3 {
+  position: absolute;
+  top: 23.82vw;
+  left: 61.46vw;
+  width: 3.19vw;
+  height: 4.31vw;
+  transform: rotate(23deg);
+  background: url(../images/ukazatel.svg);
+  background-size: 100%;
+}
+
+.ukazatel4 {
+  position: absolute;
+  top: 5.56vw;
+  left: 78.75vw;
+  width: 3.19vw;
+  height: 4.31vw;
+  transform: rotate(343deg);
+  background: url(../images/ukazatel.svg);
+  background-size: 100%;
+}
+
+.mouth1 {
+  position: absolute;
+  top: 36.94vw;
+  left: 17.08vw;
+  width: 11.11vw;
+  height: 0.49vw;
+  background: url(../images/mouth1.svg);
+  background-size: 100%;
+}
+
+.mouth2 {
+  position: absolute;
+  top: 35.63vw;
+  left: 19.72vw;
+  width: 4.34vw;
+  height: 1.3vw;
+  background: url(../images/mouth2.svg);
+  background-size: 100%;
+}
+
+.mouth3 {
+  position: absolute;
+  top: 33.89vw;
+  left: 18.82vw;
+  width: 6.18vw;
+  height: 3.82vw;
+  background: url(../images/mouth3.svg);
+  background-size: 100%;
+}
+
+.mouth4 {
+  position: absolute;
+  top: 36.11vw;
+  left: 21.60vw;
+  width: 2.22vw;
+  height: 2.22vw;
+  background: url(../images/mouth4.svg);
+  background-size: 100%;
+}
+
+.stars {
+  position: absolute;
+  top: 28.89vw;
+  left: 55.97vw;
+  width: 8.89vw;
+  height: 7.64vw;
+  background: url(../images/stars.svg);
+  background-size: 100%;
+}
+
+.brows {
+  position: absolute;
+  top: 22.15vw;
+  left: 22.01vw;
+  width: 6.67vw;
+  height: 2.1vw;
+  background: url(../images/brows.svg);
+  background-size: 100%;
+}
+
+.voshkiview {
+  position: absolute;
+  top: 28.75vw;
+  left: 55vw;
+  width: 10.21vw;
+  height: 6.81vw;
+  background: url(../images/voshkiview.svg);
+  background-size: 100%;
+}
+
+.treshina {
+  position: absolute;
+  top: 54.17vw;
+  left: 37.50vw;
+  width: 9.03vw;
+  height: 4.86vw;
+  background: url(../images/treshina.svg);
+  background-size: 100%;
+}
+
+.pills2 {
+  position: absolute;
+  top: 0.07vw;
+  left: 47.78vw;
+  height: 12.64vw;
+  width: 23.61vw;
+  background: url(../images/pills2.svg);
+  background-size: 100%;
+  transform: rotate(42deg);
+}
+
+.plastir2 {
+  position: absolute;
+  top: 47.92vw;
+  left: 2.99vw;
+  height: 5.56vw;
+  width: 15.97vw;
+  background: url(../images/plastir2.svg);
+  background-size: 100%;
+  transform: rotate(41deg);
+}
+
+.nasos2 {
+  position: absolute;
+  top: 56.11vw;
+  left: 78.82vw;
+  height: 5.56vw;
+  width: 21.25vw;
+  background: url(../images/nasos2.svg);
+  background-size: 100%;
+  transform: rotate(-52deg);
+}
+
+.molotok2 {
+  position: absolute;
+  top: 9.03vw;
+  left: 0.07vw;
+  height: 9.86vw;
+  width: 22.50vw;
+  background: url(../images/molotok2.svg);
+  background-size: 100%;
+  transform: rotate(-44deg);
+}
+
+/* третий экран */
+
+.view3 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+
+.blackarea {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+.kishki {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background: url(../images/kishki.svg);
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.arrow1 {
+  position: absolute;
+  top: 13.54vw;
+  left: 11.25vw;
+  z-index: 1;
+  width: 5.5vw;
+  height: 9.31vw;
+  background: url(../images/arrow1.svg);
+  background-size: 100%;
+}
+
+.proveditabletku {
+  position: absolute;
+  top: 48.92vw;
+  left: 5.31vw;
+  z-index: 1;
+  width: 25.56vw;
+  height: 16.04vw;
+  background: url(../images/proveditabletku.svg);
+  background-size: 100%;
+  transform: rotate(-5deg);
+}
+
+.arrow2 {
+  position: absolute;
+  top: 34.93vw;
+  left: 51.67vw;
+  z-index: 1;
+  width: 3.54vw;
+  height: 10.97vw;
+  background: url(../images/arrow2.svg);
+  background-size: 100%;
+}
+
+.nekasayac {
+  position: absolute;
+  top: 5.56vw;
+  left: 31.60vw;
+  z-index: 1;
+  width: 15.21vw;
+  height: 9.79vw;
+  background: url(../images/nekasayac.svg);
+  background-size: 100%;
+}
+
+.chernoy {
+  position: absolute;
+  top: 24.31vw;
+  left: 60.07vw;
+  z-index: 1;
+  width: 13.26vw;
+  height: 7.01vw;
+  background: url(../images/chernoy.svg);
+  background-size: 100%;
+}
+
+.territorii {
+  position: absolute;
+  top: 57.64vw;
+  left: 70.14vw;
+  z-index: 1;
+  width: 20.28vw;
+  height: 8.75vw;
+  background: url(../images/territorii.svg);
+  background-size: 100%;
+}
+
+#mscreen3 {
+  position: absolute;
+  top: 56.94vw;
+  left: 93.06vw;
+}
+
+.finish {
+  position: absolute;
+  top: 35.42vw;
+  left: 93.47vw;
+  z-index: 1;
+  width: 4.51vw;
+  height: 11.32vw;
+  background: url(../images/finish.svg);
+  background-size: 100%;
+}
+
+.hidden1 {
+  z-index: 1;
+}
+
+#square1 {
+  position: absolute;
+  top: 15.5301vw;
+  left: -5.93vw;
+  width: 12.22vw;
+  height: 47.22vw;
+  border-radius: 6.25vw 6.25vw 0px 0px;
+  transform: rotate(10deg);
+}
+
+#square2 {
+  position: absolute;
+  top: 56.60vw;
+  left: 2.08vw;
+  width: 6.94vw;
+  height: 20.83vw;
+  transform: rotate(118deg);
+}
+#square3 {
+  position: absolute;
+  top: 25.49vw;
+  left: 16.88vw;
+  width: 4.72vw;
+  height: 31.04vw;
+  border-radius: 6.25vw 6.25vw 0px 0px;
+  transform: rotate(195deg);
+}
+#square4 {
+  position: absolute;
+  top: 55.14vw;
+  left: 22.71vw;
+  width: 6.94vw;
+  height: 20.83vw;
+  transform: rotate(47deg);
+}
+#square5 {
+  position: absolute;
+  top: 39.38vw;
+  left: 29.10vw;
+  width: 6.18vw;
+  height: 30.90vw;
+  border-radius: 6.25vw 6.25vw 0px 0px;
+  transform: rotate(6deg);
+}
+#square6 {
+  position: absolute;
+  top: 59.03vw;
+  left: 39.17vw;
+  width: 6.94vw;
+  height: 20.83vw;
+  transform: rotate(117deg);
+}
+#square7 {
+  position: absolute;
+  top: 55.28vw;
+  left: 54.79vw;
+  width: 100px;
+  height: 20.83vw;
+  transform: rotate(45deg);
+}
+#square8 {
+  position: absolute;
+  top: 58.54vw;
+  left: 68.68vw;
+  width: 6.94vw;
+  height: 20.83vw;
+  transform: rotate(-64deg);
+}
+#square9 {
+  position: absolute;
+  top: 55.76vw;
+  left: 87.64vw;
+  width: 6.94vw;
+  height: 20.83vw;
+  transform: rotate(43deg);
+}
+#square10 {
+  position: absolute;
+  top: 42.99vw;
+  left: 75.56vw;
+  width: 5.83vw;
+  height: 13.89vw;
+  border-radius: 6.25vw 6.25vw 0px 0px;
+  transform: rotate(177deg);
+}
+#square11 {
+  position: absolute;
+  top: 27.22vw;
+  left: 85.56vw;
+  width: 2.99vw;
+  height: 20.28vw;
+  transform: rotate(60deg);
+}
+#square12 {
+  position: absolute;
+  top: 47.36vw;
+  left: 92.50vw;
+  width: 8.33vw;
+  height: 28.33vw;
+}
+#square13 {
+  position: absolute;
+  top: 6.18vw;
+  left: 97.99vw;
+  width: 6.94vw;
+  height: 27.78vw;
+  transform: rotate(5deg);
+}
+#square14 {
+  position: absolute;
+  top: -12.93vw;
+  left: 51.94vw;
+  width: 4.93vw;
+  height: 34.72vw;
+  transform: rotate(321deg);
+}
+#square15 {
+  position: absolute;
+  top: 6.25vw;
+  left: 48.61vw;
+  width: 4.51vw;
+  height: 34.72vw;
+  border-radius: 6.25vw 6.25vw 0px 0px;
+  transform: rotate(316deg);
+}
+#square16 {
+  position: absolute;
+  top: 31.88vw;
+  left: 61.11vw;
+  width: 2.92vw;
+  height: 41.67vw;
+  transform: rotate(1deg);
+}
+#square17 {
+  position: absolute;
+  top: 20.69vw;
+  left: 69.24vw;
+  width: 4.17vw;
+  height: 20.28vw;
+  transform: rotate(54deg);
+}
+#square18 {
+  position: absolute;
+  top: 10.35vw;
+  left: 76.32vw;
+  width: 11.81vw;
+  height: 11.81vw;
+  border-radius: 50%;
+  transform: rotate(-64deg);
+}
+#square19 {
+  position: absolute;
+  top: 20.69vw;
+  left: 75.35vw;
+  width: 9.24vw;
+  height: 4.58vw;
+  transform: rotate(22deg);
+}
+#square20 {
+  position: absolute;
+  top: 41.60vw;
+  left: 46.39vw;
+  width: 3.96vw;
+  height: 14.10vw;
+  border-radius: 6.25vw 6.25vw 0px 0px;
+  transform: rotate(185deg);
+}
+#square21 {
+  position: absolute;
+  top: 29.93vw;
+  left: 44.17vw;
+  width: 2.71vw;
+  height: 13.19vw;
+  transform: rotate(333deg);
+}
+#square22 {
+  position: absolute;
+  top: 21.94vw;
+  left: 34.79vw;
+  width: 2.78vw;
+  height: 13.19vw;
+  transform: rotate(-64deg);
+}
+#square23 {
+  position: absolute;
+  top: 9.31vw;
+  left: 21.39vw;
+  width: 6.94vw;
+  height: 20.83vw;
+  transform: rotate(160deg);
+}
+#square24 {
+  position: absolute;
+  top: -9.93vw;
+  left: 9.31vw;
+  width: 6.94vw;
+  height: 27.78vw;
+  transform: rotate(117deg);
+}
+#square25 {
+  position: absolute;
+  top: -11.93vw;
+  left: 65.63vw;
+  width: 6.94vw;
+  height: 27.78vw;
+  transform: rotate(40deg);
+}
+#square26 {
+  position: absolute;
+  top: -13.93vw;
+  left: 23.75vw;
+  width: 6.94vw;
+  height: 27.78vw;
+  transform: rotate(30deg);
+}
+#square27 {
+  position: absolute;
+  top: -14.93vw;
+  left: 88.47vw;
+  width: 6.94vw;
+  height: 27.78vw;
+  transform: rotate(124deg);
+}
+.tabletka {
+  position: absolute;
+  top: 8.33vw;
+  left: 4.86vw;
+  width: 3.33vw;
+  height: 6.25vw;
+  transform: rotate(36deg);
+  background: url(../images/tabletka.svg);
+  background-size: 100%;
+  z-index: 2;
+}
+
+.hidden {
+  position: absolute;
+  top: 35.56vw;
+  left: 93.13vw;
+  width: 6.94vw;
+  height: 11.11vw;
+  z-index: 1;
+}
+
+/* четвертый экран */
+
+.view4 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+
+.lapa {
+  position: absolute;
+  left: 48vw;
+  top: -9.810000000000002vw;
+  width: 36.6vw;
+  height: 88.53vw;
+  transform: rotate(15deg);
+  background: url(../images/lapa.svg);
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.dropped {
+  position: absolute;
+}
+.kusoklapi {
+  position: absolute;
+  top: 12.9vw;
+  left: 50.4vw;
+  width: 7.7vw;
+  height: 23.1vw;
+  transform: rotate(14deg);
+  background: url(../images/kusoklapi.svg);
+  background-size: 100%;
+}
+.kusoklapi2 {
+  position: absolute;
+  top: 14.51vw;
+  left: 49.93vw;
+  width: 16vw;
+  height: 22.78vw;
+  transform: rotate(15deg);
+  background: url(../images/kusoklapi2.svg);
+  background-size: 100%;
+}
+.kusoklapi3 {
+  position: absolute;
+  top: 27.43vw;
+  left: 55.28vw;
+  width: 22.29vw;
+  height: 16.04vw;
+  transform: rotate(16deg);
+  background: url(../images/kusoklapi3.svg);
+  background-size: 100%;
+}
+.kusoklapi4 {
+  position: absolute;
+  top: 21.7vw;
+  left: 64.72vw;
+  width: 17.15vw;
+  height: 15.97vw;
+  transform: rotate(16deg);
+  background: url(../images/kusoklapi4.svg);
+  background-size: 100%;
+}
+.kusoklapi5 {
+  position: absolute;
+  top: 27.99vw;
+  left: 78.1vw;
+  width: 6.4vw;
+  height: 15.63vw;
+  transform: rotate(14deg);
+  background: url(../images/kusoklapi5.svg);
+  background-size: 100%;
+}
+
+
+#p1 {
+  position: absolute;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 3.33vw;
+  top: 4.17vw;
+  left: 4.17vw;
+  transform: rotate(-15deg);
+}
+
+#p2 {
+  position: absolute;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 3.33vw;
+  top: 10.76vw;
+  left: 27.08vw;
+  transform: rotate(35deg);
+}
+
+#p3 {
+  position: absolute;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 3.33vw;
+  top: 43.75vw;
+  left: 7.99vw;
+  transform: rotate(30deg);
+}
+
+#p4 {
+  position: absolute;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 3.33vw;
+  top: 47.71vw;
+  left: 27.08vw;
+  transform: rotate(317deg);
+}
+
+.lapa1 {
+  position: absolute;
+  top: 34.03vw;
+  left: 24.51vw;
+  width: 7.67vw;
+  height: 23.19vw;
+  background: url(../images/lapa1.svg);
+  background-size: 100%;
+  transform: rotate(-135deg);
+}
+
+.lapa2 {
+  position: absolute;
+  top: 20.56vw;
+  left: 5.56vw;
+  width: 16.18vw;
+  height: 22.71vw;
+  background: url(../images/lapa2.svg);
+  background-size: 100%;
+  transform: rotate(-60deg);
+}
+
+.lapa3 {
+  position: absolute;
+  top: 21.25vw;
+  left: 24.10vw;
+  width: 22.5vw;
+  height: 16.32vw;
+  background: url(../images/lapa3.svg);
+  background-size: 100%;
+  transform: rotate(60deg);
+}
+
+.lapa4 {
+  position: absolute;
+  top: 9.86vw;
+  left: 9.86vw;
+  width: 17.36vw;
+  height: 16.11vw;
+  background: url(../images/lapa4.svg);
+  background-size: 100%;
+  transform: rotate(-15deg);
+}
+.lapa5 {
+  position: absolute;
+  top: 3.06vw;
+  left: 39.58vw;
+  width: 6.4vw;
+  height: 15.69vw;
+  background: url(../images/lapa5.svg);
+  background-size: 100%;
+  transform: rotate(60deg);
+}
+#mscreen41 {
+  position: absolute;
+  top: 56.94vw;
+  left: 86.11vw;
+}
+#mscreen42 {
+  position: absolute;
+  top: 56.94vw;
+  left: 93.06vw;
+}
+
+#screen4 {
+  position: absolute;
+  top: 62.64vw;
+  left: 3.19vw;
+  z-index: 2;
+}
+#screen4 p {
+  position: relative;
+  top: 0.69vw;
+  left: 7.15vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+/* пятый экран */
+
+.view5 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+}
+
+.loop {
+  position: absolute;
+  width: 13.89vw;
+  height: 13.89vw;
+  background: url(../images/volosi.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  border-radius: 50%/50%;
+  z-index: 1;
+}
+
+.volosi2 {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  background: url(../images/volosi2.png), url(../images/volosi.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#v1 {
+  position: absolute;
+  top: 9.93vw;
+  left: 34.17vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v2 {
+  position: absolute;
+  top: 17.43vw;
+  left: 82.01vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v3 {
+  position: absolute;
+  top: 57.85vw;
+  left: 65.56vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v4 {
+  position: absolute;
+  top: 50.49vw;
+  left: 40.97vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v5 {
+  position: absolute;
+  top: 29.17vw;
+  left: 53.82vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v6 {
+  position: absolute;
+  top: 42.08vw;
+  left: 76.88vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v7 {
+  position: absolute;
+  top: 41.67vw;
+  left: 23.47vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v8 {
+  position: absolute;
+  top: 59.17vw;
+  left: 13.89vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v9 {
+  position: absolute;
+  top: 25.76vw;
+  left: 4.31vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v10 {
+  position: absolute;
+  top: 9.79vw;
+  left: 55.90vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v11 {
+  position: absolute;
+  top: 4.65vw;
+  left: 10.69vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#v12 {
+  position: absolute;
+  top: 18.33vw;
+  left: 19.79vw;
+  z-index: 2;
+  width: 3.61vw;
+  height: 3.82vw;
+  background: url(../images/voshka.svg);
+  background-size: 100%;
+}
+
+#screen5 {
+  position: absolute;
+  top: 57.64vw;
+  left: 3.19vw;
+  z-index: 2;
+}
+#screen5 p {
+  position: relative;
+  top: 0.69vw;
+  left: 7.15vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+.nadpic {
+  position: absolute;
+  top: 3.19vw;
+  left: 62.50vw;
+  width: 32.92vw;
+  height: 11.39vw;
+  border-radius: 6.25vw;
+  background-color: white;
+  border: 0.49vw solid #5EE453;
+  z-index: 2;
+}
+
+.nadpic p {
+  position: relative;
+  top: 2.99vw;
+  left: 5.69vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 2.22vw;
+  z-index: 2;
+}
+/* шестой экран */
+.view6 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: white;
+  overflow: hidden;
+}
+.nasoss {
+  position: absolute;
+  top: 0.21vw;
+  left: 61.7101vw;
+  width: 5.63vw;
+  height: 23.26vw;
+  transform: rotate(116deg);
+  background: url(../images/nasoss.svg);
+  background-size: 100%;
+}
+
+.nos {
+  position: absolute;
+  top: 26.67vw;
+  left: 14.86vw;
+  width: 14.51vw;
+  height: 15.14vw;
+  background: url(../images/nos.svg);
+  background-size: 100%;
+}
+.dog6 {
+  position: absolute;
+  top: 7.71vw;
+  left: 11.11vw;
+  width: 77.22vw;
+  height: 60.49vw;
+  background: url(../images/dog6.png);
+  background-size: 100%;
+}
+/* седьмой экран */
+
+.view7 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background: white;
+  overflow: hidden;
+}
+
+.dog3 {
+  position: absolute;
+  top: 7.08vw;
+  left: 8.68vw;
+  width: 77.50vw;
+  height: 61.39vw;
+  background: url(../images/dog3.svg);
+  background-size: 100%;
+}
+
+#screen7 {
+  position: absolute;
+  top: 57.64vw;
+  left: 3.19vw;
+}
+
+#screen7 p {
+  position: relative;
+  top: 0.69vw;
+  left: 6.94vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+.nasoss2 {
+  position: absolute;
+  top: 0.21vw;
+  left: 59.58vw;
+  width: 5.63vw;
+  height: 23.26vw;
+  transform: rotate(116deg);
+  background: url(../images/nasoss.svg);
+  background-size: 100%;
+}
+
+/* восьмой экран */
+
+.view8 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background: white;
+  overflow: hidden;
+}
+
+.nasoss3 {
+  position: absolute;
+  top: -3.9297vw;
+  left: 60.24vw;
+  width: 5.63vw;
+  height: 23.26vw;
+  transform: rotate(107deg);
+  background: url(../images/nasoss.svg);
+  background-size: 100%;
+}
+
+.dog4 {
+  position: absolute;
+  width: 99.51vw;
+  height: 82.15vw;
+  background: url(../images/dog4.svg);
+  background-size: 100%;
+  overflow: hidden;
+}
+/* девятый экран */
+.view9 {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background: white;
+  overflow: hidden;
+}
+
+.view9text {
+  position: absolute;
+  top: 16.46vw;
+  left: 29.44vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 8.75vw;
+  letter-spacing: 0.63vw;
+}
+
+.view9text2 {
+  position: absolute;
+  top: 28.40vw;
+  left: 27.57vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 2.50vw;
+  letter-spacing: 0.14vw;
+  line-height: 3.47vw;
+  text-align: center;
+}
+
+#screentimeover {
+  position: absolute;
+  top: 38.61vw;
+  left: 34.10vw;
+}
+
+#screentimeover p {
+  position: relative;
+  top: 0.69vw;
+  left: 5.69vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+.hidden2 {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  overflow: hidden;
+}
+.dog5 {
+  position: absolute;
+  top: 71.11vw;
+  left: 13.06vw;
+  transition: 2s;
+  width: 68.68vw;
+  height: 54.38vw;
+  background: url(../images/dog5.svg);
+  background-size: 100%;
+  overflow: hidden;
+}
+/* экран окончания времени */
+
+.timeover {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background: white;
+  overflow: hidden;
+}
+
+.timeovertext {
+  position: absolute;
+  top: 16.94vw;
+  left: 33.61vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 8.75vw;
+  letter-spacing: 0.63vw;
+}
+
+.timeovertext2 {
+  position: absolute;
+  top: 28.40vw;
+  left: 33.61vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 2.50vw;
+  letter-spacing: 0.14vw;
+  line-height: 3.47vw;
+  text-align: center;
+}
+
+#screentimeover {
+  position: absolute;
+  top: 38.61vw;
+  left: 34.24vw;
+}
+
+#screentimeover p {
+  position: relative;
+  top: 0.69vw;
+  left: 5.69vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+.sharik2 {
+  position: absolute;
+  top: 51.53vw;
+  left: 28.61vw;
+  width: 42.78vw;
+  height: 13.7vw;
+  background: url(../images/sharik2.svg);
+  background-size: 100%;
+}
+
+
+/* экран окончания игры */
+.gameover {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+
+}
+.gameovertext {
+  position: absolute;
+  top: 20.63vw;
+  left: 33.61vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 8.75vw;
+  letter-spacing: 0.63vw;
+}
+
+.gameovertext2 {
+  position: absolute;
+  top: 31.53vw;
+  left: 34.51vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 2.50vw;
+  letter-spacing: 0.14vw;
+  line-height: 3.47vw;
+  text-align: center;
+}
+
+#screengameover {
+  position: absolute;
+  top: 38.61vw;
+  left: 34.24vw;
+}
+
+#screengameover p {
+  position: relative;
+  top: 0.69vw;
+  left: 5.69vw;
+  font-family: 'PPPangramSansRounded';
+  font-weight: 700;
+  font-size: 4.44vw;
+}
+
+.kusokshara1 {
+  position: absolute;
+  top: 54.72vw;
+  left: 13.54vw;
+  width: 35.14vw;
+  height: 10.69vw;
+  background: url(../images/kusokshara1.svg);
+  background-size: 100%;
+}
+
+.kusokshara2 {
+  position: absolute;
+  top: 50.14vw;
+  left: 61.25vw;
+  width: 3.9413vw;
+  height: 4.7199vw;
+  background: url(../images/kusokshara2.svg);
+  background-size: 100%;
+  transform: rotate(36deg);
+}
+.kusokshara3 {
+  position: absolute;
+  top: 52.92vw;
+  left: 75.21vw;
+  width: 6.009999999999998vw;
+  height: 8.26vw;
+  background: url(../images/kusokshara3.svg);
+  transform: rotate(-64deg);
+  background-size: 100%;
+}
+.kusokshara4 {
+  position: absolute;
+  top: 21.53vw;
+  left: 75.35vw;
+  width: 15.351vw;
+  height: 17.57vw;
+  background: url(../images/kusokshara4.svg);
+  background-size: 100%;
+}
+.kusokshara5 {
+  position: absolute;
+  top: 6.380000000000003vw;
+  left: 60.63vw;
+  width: 11.75vw;
+  height: 10vw;
+  background: url(../images/kusokshara5.svg);
+  transform: rotate(6deg);
+  background-size: 100%;
+}
+.kusokshara6 {
+  position: absolute;
+  top: 9.24vw;
+  left: 24.31vw;
+  width: 7.259999999999998vw;
+  height: 9.51vw;
+  background: url(../images/kusokshara6.svg);
+  transform: rotate(335deg);
+  background-size: 100%;
+}
+.kusokshara7 {
+  position: absolute;
+  top: 25.83vw;
+  left: 9.38vw;
+  width: 13.26vw;
+  height: 17.58vw;
+  background: url(../images/kusokshara7.svg);
+  transform: rotate(336deg);
+  background-size: 100%;
+}
