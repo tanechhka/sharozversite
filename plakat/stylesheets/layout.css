@@ -1,0 +1,1107 @@
+/* лэндинг */
+.landing {
+   position: relative;
+   width: 1440px;
+   height: 3551px;
+}
+.landinground {
+  position: absolute;
+  width: 1440px;
+  height: 3724px;
+}
+/* текст */
+.zagolovok {
+  font-family: 'Circe Rounded Alt Regular2';
+  font-weight: normal;
+  font-size: 150px;
+}
+.bigtext {
+  position: absolute;
+  font-family: 'Century Gothic Bold';
+  font-weight: bold;
+	font-style: normal;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+}
+.bigtext.one {
+  top: 1731px;
+  left: 817px;
+  transform: rotate(1deg);
+}
+.bigtext.two {
+  top: 3140px;
+  left: 349px;
+  transform: rotate(-1deg);
+}
+.n {
+  position: absolute;
+  top: 13px;
+  left: 602px;
+  animation: n 2.5s linear infinite;
+}
+.o {
+  position: absolute;
+  top: 50px;
+  left: 684px;
+  animation: o 2.5s linear infinite;
+}
+.v {
+  position: absolute;
+  top: 5px;
+  left: 775px;
+  animation: v 2.5s linear infinite;
+}
+.a {
+  position: absolute;
+  top: 22px;
+  left: 858px;
+  animation: a 2.5s linear infinite;
+}
+.y {
+  position: absolute;
+  left: 940px;
+  animation: y 2.5s linear infinite;
+}
+.k {
+  position: absolute;
+  top: 374px;
+  left: 19px;
+  animation: k 2.5s linear infinite;
+}
+.o2 {
+  position: absolute;
+  top: 370px;
+  left: 105px;
+  animation: o2 2.5s linear infinite;
+}
+.l {
+  position: absolute;
+  top: 400px;
+  left: 184px;
+  animation: l 2.5s linear infinite;
+}
+.l2 {
+  position: absolute;
+  top: 360px;
+  left: 270px;
+  animation: l2 2.5s linear infinite;
+}
+.e {
+  position: absolute;
+  top: 376px;
+  left: 362px;
+  animation: e 2.5s linear infinite;
+}
+.k2 {
+  position: absolute;
+  top: 338px;
+  left: 442px;
+  animation: k2 2.5s linear infinite;
+}
+.c {
+  position: absolute;
+  top: 356px;
+  left: 534px;
+  animation: c 2.5s linear infinite;
+}
+.i {
+  position: absolute;
+  top: 320px;
+  left: 625px;
+  animation: i 2.5s linear infinite;
+}
+.y2 {
+  position: absolute;
+  top: 342px;
+  left: 717px;
+  animation: y2 2.5s linear infinite;
+}
+.w {
+  position: absolute;
+  top: 702px;
+  left: 484px;
+  animation: w 2.5s linear infinite;
+}
+.a2 {
+  position: absolute;
+  top: 743px;
+  left: 603px;
+  animation: a2 2.5s linear infinite;
+}
+.r {
+  position: absolute;
+  top: 707px;
+  left: 677px;
+  animation: r 2.5s linear infinite;
+}
+.o3 {
+  position: absolute;
+  top: 739px;
+  left: 768px;
+  animation: o3 2.5s linear infinite;
+}
+.z {
+  position: absolute;
+  top: 750px;
+  left: 865px;
+  animation: z 2.5s linear infinite;
+}
+.v2 {
+  position: absolute;
+  top: 732px;
+  left: 946px;
+  animation: v2 2.5s linear infinite;
+}
+.e2 {
+  position: absolute;
+  top: 726px;
+  left: 1027px;
+  animation: e2 2.5s linear infinite;
+}
+.r2 {
+  position: absolute;
+  top: 722px;
+  left: 1114px;
+  animation: r2 2.5s linear infinite;
+}
+.e3 {
+  position: absolute;
+  top: 761px;
+  left: 1202px;
+  animation: e3 2.5s linear infinite;
+}
+.q {
+  position: absolute;
+  top: 736px;
+  left: 1296px;
+  animation: q 2.5s linear infinite;
+}
+.v3 {
+  position: absolute;
+  top: 1022px;
+  left: 50px;
+  animation: v3 2.5s linear infinite;
+}
+.s {
+  position: absolute;
+  top: 977px;
+  left: 125px;
+  animation: s 2.5s linear infinite;
+}
+.e4 {
+  position: absolute;
+  top: 994px;
+  left: 197px;
+  animation: e4 2.5s linear infinite;
+}
+.h {
+  position: absolute;
+  top: 965px;
+  left: 283px;
+  animation: h 2.5s linear infinite;
+}
+.f {
+  position: absolute;
+  top: 1272px;
+  left: 254px;
+  animation: f 2.5s linear infinite;
+}
+.o4 {
+  position: absolute;
+  top: 1218px;
+  left: 351px;
+  animation: o4 2.5s linear infinite;
+}
+.r3 {
+  position: absolute;
+  top: 1245px;
+  left: 442px;
+  animation: r3 2.5s linear infinite;
+}
+.m {
+  position: absolute;
+  top: 1274px;
+  left: 537px;
+  animation: m 2.5s linear infinite;
+}
+.i2 {
+  position: absolute;
+  top: 1531px;
+  left: 376px;
+  animation: i2 2.5s linear infinite;
+}
+.r4 {
+  position: absolute;
+  top: 1500px;
+  left: 525px;
+  animation: r4 2.5s linear infinite;
+}
+.a3 {
+  position: absolute;
+  top: 1555px;
+  left: 609px;
+  animation: a3 2.5s linear infinite;
+}
+.z2 {
+  position: absolute;
+  top: 1545px;
+  left: 691px;
+  animation: z2 2.5s linear infinite;
+}
+.m2 {
+  position: absolute;
+  top: 1531px;
+  left: 770px;
+  animation: m2 2.5s linear infinite;
+}
+.e5 {
+  position: absolute;
+  top: 1543px;
+  left: 874px;
+  animation: e5 2.5s linear infinite;
+}
+.r5 {
+  position: absolute;
+  top: 1485px;
+  left: 960px;
+  animation: r5 2.5s linear infinite;
+}
+.o5 {
+  position: absolute;
+  top: 1553px;
+  left: 1021px;
+  animation: o5 2.5s linear infinite;
+}
+.v4 {
+  position: absolute;
+  top: 1526px;
+  left: 1111px;
+  animation: v4 2.5s linear infinite;
+}
+.v5 {
+  position: absolute;
+  top: 2455px;
+  left: 165px;
+  animation: v5 2.5s linear infinite;
+}
+.u {
+  position: absolute;
+  top: 2414px;
+  left: 250px;
+  animation: u 2.5s linear infinite;
+}
+.b {
+  position: absolute;
+  top: 2407px;
+  left: 364px;
+  animation: b 2.5s linear infinite;
+}
+.e6 {
+  position: absolute;
+  top: 2431px;
+  left: 455px;
+  animation: e6 2.5s linear infinite;
+}
+.r6 {
+  position: absolute;
+  top: 2385px;
+  left: 544px;
+  animation: r6 2.5s linear infinite;
+}
+.i3 {
+  position: absolute;
+  top: 2407px;
+  left: 643px;
+  animation: i3 2.5s linear infinite;
+}
+.s2 {
+  position: absolute;
+  top: 2592px;
+  left: 1009px;
+  animation: s2 2.5s linear infinite;
+}
+.e7 {
+  position: absolute;
+  top: 2643px;
+  left: 1086px;
+  animation: e7 2.5s linear infinite;
+}
+.b2 {
+  position: absolute;
+  top: 2625px;
+  left: 1179px;
+  animation: b2 2.5s linear infinite;
+}
+.e8 {
+  position: absolute;
+  top: 2649px;
+  left: 1272px;
+  animation: e8 2.5s linear infinite;
+}
+.d {
+  position: absolute;
+  top: 2933px;
+  left: 205px;
+  animation: d 2.5s linear infinite;
+}
+.r7 {
+  position: absolute;
+  top: 2966px;
+  left: 299px;
+  animation: r7 2.5s linear infinite;
+}
+.x {
+  position: absolute;
+  top: 2928px;
+  left: 385px;
+  animation: x 2.5s linear infinite;
+}
+.g {
+  position: absolute;
+  top: 2899px;
+  left: 470px;
+  animation: g 2.5s linear infinite;
+}
+.a4 {
+  position: absolute;
+  top: 2866px;
+  left: 544px;
+  animation: a4 2.5s linear infinite;
+}
+/* загагули */
+.cminiblue {
+  position: absolute;
+  width: 120px;
+  height: 90px;
+}
+.cminiblue.one {
+  top: 19px;
+  left: 1017px;
+  animation: cminiblue1 2.5s linear infinite;
+}
+.cminiblue.two {
+  top: 205px;
+  left: 655px;
+  transform: rotate(200deg);
+  animation: cminiblue2 2.5s linear infinite;
+}
+.cminiblue.three {
+  top: 1116px;
+  left: 242px;
+  transform: rotate(311deg);
+  animation: cminiblue.three 2.5s linear infinite;
+}
+.cminiblue.four {
+  top: 1229px;
+  left: 562px;
+  transform: rotate(333deg);
+  animation: cminiblue.four 2.5s linear infinite;
+}
+.cminiblue.five {
+  top: 1316px;
+  left: 1288px;
+  transform: rotate(126deg);
+  animation: cminiblue.five 2.5s linear infinite;
+}
+.cminiblue.six {
+  top: 2201px;
+  left: 594px;
+  transform: rotate(300deg);
+  animation: cminiblue.six 2.5s linear infinite;
+}
+.cminiyellow {
+  position: absolute;
+  width: 120px;
+  height: 70px;
+}
+.cminiyellow.one {
+  top: 332px;
+  left: 1246px;
+}
+.cminiyellow.two {
+  top: 3106px;
+  left: 853px;
+  transform: rotate(356deg);
+}
+.cminired {
+  position: absolute;
+  width: 120px;
+  height: 90px;
+}
+.cminired.one {
+  top: 527px;
+  left: 30px;
+}
+.cminired.two {
+  top: 2965px;
+  left: 16px;
+  transform: rotate(130deg);
+}
+.cminired.three {
+  top: 3013px;
+  left: 1072px;
+  transform: rotate(161deg);
+}
+.cminigreen {
+  position: absolute;
+  width: 120px;
+  height: 90px;
+}
+.cminigreen.one {
+  top: 2191px;
+  left: 1278px;
+}
+.cminigreen.two {
+  top: 3212px;
+  left: 215px;
+  transform: rotate(312deg);
+}
+.ccgreen {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+}
+.ccgreen.one {
+  position: absolute;
+  top: 117px;
+  left: 1213px;
+}
+.ccgreen.two {
+  position: absolute;
+  top: 1643px;
+  left: 1271px;
+  transform: rotate(75deg);
+}
+.ccgreen.three {
+  position: absolute;
+  top: 3100px;
+  left: 1317px;
+  transform: rotate(355deg);
+}
+.ccgreen.four {
+  position: absolute;
+  top: 3090px;
+  left: 187px;
+  transform: rotate(26deg);
+}
+.ccyellow {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+}
+.ccyellow.one {
+  position: absolute;
+  top: 518px;
+  left: 485px;
+}
+.ccyellow.two {
+  position: absolute;
+  top: 1178px;
+  left: 883px;
+  transform: rotate(17deg);
+}
+.ccyellow.three {
+  position: absolute;
+  top: 2393px;
+  left: 1291px;
+  transform: rotate(261deg);
+}
+.ccred {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+}
+.ccred.one {
+  position: absolute;
+  top: 940px;
+  left: 1267px;
+}
+.ccred.two {
+  position: absolute;
+  top: 1709px;
+  left: 693px;
+}
+.ccblue {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+}
+.ccblue.one {
+  position: absolute;
+  top: 1869px;
+  left: 39px;
+}
+
+.ccccccyellow {
+  position: absolute;
+  width: 227px;
+  height: 174px;
+}
+.ccccccyellow.one {
+  top: 149px;
+  left: 745px;
+}
+.ccccccyellow.two {
+  top: 2800px;
+  left: 1170px;
+  transform: rotate(223deg);
+}
+.ccccccred {
+  position: absolute;
+  width: 227px;
+  height: 174px;
+}
+.ccccccred.one {
+  top: 1392px;
+  left: 40px;
+}
+.ccccccblue {
+  position: absolute;
+  width: 227px;
+  height: 174px;
+}
+.ccccccblue.one {
+  top: 2022px;
+  left: 720px;
+}
+
+.ccccgreen {
+  position: absolute;
+  width: 220px;
+  height: 170px;
+}
+.ccccgreen.one {
+  top: 253px;
+  left: 1058px;
+}
+.ccccgreen.two {
+  top: 1387px;
+  left: 337px;
+  transform: rotate(17deg);
+}
+.ccccblue {
+  position: absolute;
+  width: 180px;
+  height: 200px;
+}
+.ccccblue.one {
+  top: 14px;
+  left: 1257px;
+}
+.ccccblue.two {
+  top: 1333px;
+  left: 671px;
+  transform: rotate(100deg);
+}
+.ccc {
+  position: absolute;
+  width: 280px;
+  height: 160px;
+}
+.ccc.one {
+  top: 159px;
+  left: 947px;
+  transform: rotate(290deg);
+}
+.ccc.two {
+  top: 551px;
+  left: 347px;
+}
+.ccc.three {
+  top: 1863px;
+  left: 1112px;
+  transform: rotate(354deg);
+}
+.cccgreen {
+  position: absolute;
+  top: 2876px;
+  left: 273px;
+  width: 215px;
+  height: 100px;
+}
+.cccccblue {
+  position: absolute;
+  width: 280px;
+  height: 140px;
+}
+.cccccblue.one {
+  top: 571px;
+  left: 52px;
+}
+.cccccblue.two {
+  top: 3149px;
+  left: 1069px;
+  transform: rotate(20deg);
+}
+.cccccgreen {
+  position: absolute;
+  top: 1295px;
+  left: 927px;
+  width: 280px;
+  height: 140px;
+}
+.cccccred {
+  position: absolute;
+  top: 3391px;
+  left: 462px;
+  width: 280px;
+  height: 140px;
+}
+.cccccyellow {
+  position: absolute;
+  top: 2988px;
+  left: 492px;
+  width: 280px;
+  height: 140px;
+}
+
+.bigcmini {
+  position: absolute;
+  top: 1994px;
+  left: 592px;
+  width: 180px;
+  height: 210px;
+}
+
+.kotik {
+  position: absolute;
+  top: 1163px;
+  left: 52px;
+  width: 180px;
+  height: 210px;
+}
+.misha {
+  position: absolute;
+  top: 1600px;
+  left: 62px;
+  width: 240px;
+  height: 240px;
+}
+.snake {
+  position: absolute;
+  top: 1420px;
+  left: 1011px;
+  width: 330px;
+  height: 180px;
+}
+.bigc {
+  position: absolute;
+  top: 1049px;
+  left: 406px;
+  width: 170px;
+  height: 140px;
+}
+.slonik {
+  position: absolute;
+  top: 2208px;
+  left: 623px;
+  width: 310px;
+  height: 300px;
+}
+.zaichik {
+  position: absolute;
+  top: 2539px;
+  left: 150px;
+  width: 290px;
+  height: 320px;
+}
+/* слон */
+.slon {
+  position: absolute;
+  width: 642px;
+  height: 382px;
+  top: 4px;
+  left: 10px;
+  animation: slon 2s linear infinite;
+}
+/* кот */
+.kot {
+  position: absolute;
+  width: 780px;
+  height: 375px;
+  top: 372px;
+  left: 653px;
+  animation: kot 2.5s linear infinite;
+}
+/* паук */
+.pauk {
+  position: absolute;
+  top: 685px;
+}
+.pauk:hover {
+  transform: scale(1.02);
+}
+.pauchok {
+  animation: pauk 2.5s linear infinite;
+  width: 950px;
+  height: 700px;
+}
+/* гусь */
+.gus {
+  position: absolute;
+  top: 882px;
+  left: 957px;
+}
+.gus:hover {
+  transform: scale(1.05);
+}
+.gusok {
+  animation: gus 2.5s linear infinite;
+  width: 485px;
+  height: 540px;
+}
+/* мишка */
+.mishka {
+  position: absolute;
+  width: 615px;
+  height: 685px;
+  top: 1669px;
+  left: 67px;
+  animation: mishka 2.5s linear infinite;
+}
+/* мышка */
+.mushka {
+  position: absolute;
+  width: 668px;
+  height: 400px;
+  top: 1835px;
+  left: 735px;
+  animation: mushka 2.5s linear infinite;
+}
+/* улитка */
+.ulitka {
+  position: absolute;
+  width: 625px;
+  height: 655px;
+  top: 2118px;
+  left: 760px;
+  animation: ulitka 2.5s linear infinite;
+}
+/* заяц */
+.zayac {
+  position: absolute;
+  width: 725px;
+  height: 660px;
+  top: 2486px;
+  left: 432px;
+  animation: zayac 2.5s linear infinite;
+}
+/* жираф */
+.ziraf {
+  position: absolute;
+  width: 455px;
+  height: 1325px;
+  top: 2206px;
+  animation: ziraf 2.5s linear infinite;
+}
+/* черепаха */
+.cherepaha {
+  position: absolute;
+  width: 700px;
+  height: 285px;
+  top: 3234px;
+  left: 710px;
+  animation: cherepaha 2.5s linear infinite;
+}
+/* футер */
+.footer {
+ position: relative;
+ width: 1440px;
+ height: 173px;
+ background: black;
+}
+.bigtext.name {
+  color: white;
+  top: 50px;
+  left: 60px;
+}
+.bigtext.number {
+  color: white;
+  top: 95px;
+  left: 60px;
+}
+.footer img {
+  position: absolute;
+  width: 270px;
+  height: 115px;
+  top: 35px;
+  left: 1111px;
+}
+/* анимация слона */
+@keyframes slon {
+  0% { top: 4px; left: 10px; transform: rotate(0deg);}
+  50% {top: 12px; left: 12px; transform: rotate(-3deg);}
+}
+/* анимация паука */
+@keyframes pauk {
+  0% { top:685px; transform: rotate(0deg);}
+  50% { top:705px; transform: rotate(-2deg);}
+}
+/* анимация медведя */
+@keyframes mishka {
+  0% { top: 1669px; left: 67px; transform: rotate(0deg);}
+  50% { top: 1680px; left: 77px; transform: rotate(5deg);}
+}
+/* анимация кота */
+@keyframes kot {
+  0% { top: 372px; left: 653px; transform: rotate(0deg);}
+  50% { top: 382px; left: 643px; transform: rotate(-3deg);}
+}
+/* анимация гуся */
+@keyframes gus {
+  0% { top: 882px; left: 957px; transform: rotate(0deg);}
+  50% { top: 890px; left: 947px; transform: rotate(-5deg);}
+}
+/* анимация мышки */
+@keyframes mushka {
+  0% { top: 1835px; left: 735px; transform: rotate(0deg);}
+  50% { top: 1825px; left: 750px; transform: rotate(5deg);}
+}
+/* анимация улитки */
+@keyframes ulitka {
+  0% { top: 2118px; left: 760px; transform: rotate(0deg);}
+  50% { top: 2148px; left: 760px; transform: rotate(5deg);}
+}
+/* анимация зайца */
+@keyframes zayac {
+  0% { top: 2486px; left: 432px; transform: rotate(0deg);}
+  50% { top: 2500px; left: 432px; transform: rotate(4deg);}
+}
+/* анимация жирафа */
+@keyframes ziraf {
+  0% { top: 2206px; left: 0px; transform: rotate(0deg);}
+  50% { top: 2216px; left: 0px; transform: rotate(-2deg);}
+}
+/* анимация черепахи */
+@keyframes cherepaha {
+  0% { top: 3234px; left: 710px; transform: rotate(0deg);}
+  50% { top: 3220px; left: 690px; transform: rotate(4deg);}
+}
+/* анимация букв */
+@keyframes n {
+  0% { top:13px;}
+  50% { top:0px;}
+}
+@keyframes o {
+  0% { top: 50px; left: 684px;}
+  50% { top: 60px; left: 688px;}
+}
+@keyframes v {
+  0% { top: 5px; left: 775px;}
+  50% { top: 12px; left: 769px;}
+  75% { top: 16px; left: 772px;}
+}
+@keyframes a {
+  0% { top: 22px; left: 858px;}
+  50% { top: 15px; left: 850px;}
+  75% { top: 18px; left: 854px;}
+}
+@keyframes y {
+  0% { top: 0px; left: 940px;}
+  50% { top: 8px; left: 935px;}
+}
+@keyframes k {
+  0% { top: 374px; left: 19px;}
+  50% { top: 364px; left: 19px;}
+}
+@keyframes o2 {
+  0% { top: 370px; left: 105px;}
+  50% { top: 378px; left: 105px;}
+}
+@keyframes l {
+  0% { top: 400px; left: 184px; transform: rotate(0deg);}
+  50% { top: 410px; left: 178px; transform: rotate(5deg);}
+}
+@keyframes l2 {
+  0% { top: 360px; left: 270px; transform: rotate(0deg);}
+  50% { top: 351px; left: 262px; transform: rotate(-5deg);}
+}
+@keyframes e {
+  0% { top: 376px; left: 362px; transform: rotate(0deg);}
+  50% { top: 386px; left: 354px; transform: rotate(-10deg);}
+}
+@keyframes k2 {
+  0% { top: 338px; left: 442px; transform: rotate(0deg);}
+  50% { top: 325px; left: 442px; transform: rotate(3deg);}
+}
+@keyframes c {
+  0% { top: 356px; left: 534px; transform: rotate(0deg);}
+  50% { top: 356px; left: 522px; transform: rotate(-15deg);}
+}
+@keyframes i {
+  0% { top: 320px; left: 625px; transform: rotate(0deg);}
+  50% { top: 320px; left: 612px; transform: rotate(20deg);}
+}
+@keyframes y2 {
+  0% { top: 342px; left: 717px; transform: rotate(0deg);}
+  50% { top: 325px; left: 703px; transform: rotate(-15deg);}
+}
+@keyframes w {
+  0% { top: 702px; left: 484px; transform: rotate(0deg);}
+  50% { top: 715px; left: 476px; transform: rotate(17deg);}
+}
+@keyframes a2 {
+  0% { top: 743px; left: 603px; transform: rotate(0deg);}
+  50% { top: 730px; left: 593px; transform: rotate(5deg);}
+}
+@keyframes r {
+  0% { top: 707px; left: 677px; transform: rotate(0deg);}
+  50% { top: 717px; left: 687px; transform: rotate(10deg);}
+}
+@keyframes o3 {
+  0% { top: 739px; left: 769px; transform: rotate(0deg);}
+  50% { top: 749px; left: 769px; transform: rotate(0deg);}
+}
+@keyframes z {
+  0% { top: 750px; left: 865px; transform: rotate(0deg);}
+  50% { top: 740px; left: 855px; transform: rotate(-7deg);}
+}
+@keyframes v2 {
+  0% { top: 732px; left: 946px; transform: rotate(0deg);}
+  50% { top: 743px; left: 936px; transform: rotate(7deg);}
+}
+@keyframes e2 {
+  0% { top: 726px; left: 1027px; transform: rotate(0deg);}
+  50% { top: 726px; left: 1013px; transform: rotate(-15deg);}
+}
+@keyframes r2 {
+  0% { top: 722px; left: 1114px; transform: rotate(0deg);}
+  50% { top: 726px; left: 1114px; transform: rotate(-15deg);}
+}
+@keyframes e3 {
+  0% { top: 761px; left: 1202px; transform: rotate(0deg);}
+  50% { top: 741px; left: 1212px; transform: rotate(10deg);}
+}
+@keyframes q {
+  0% { top: 736px; left: 1296px; transform: rotate(0deg);}
+  50% { top: 756px; left: 1296px; transform: rotate(-7deg);}
+}
+@keyframes v3 {
+  0% { top: 1022px; left: 50px; transform: rotate(0deg);}
+  50% { top: 1045px; left: 50px; transform: rotate(10deg);}
+}
+@keyframes s {
+  0% { top: 977px; left: 125px; transform: rotate(0deg);}
+  50% { top: 1000px; left: 125px; transform: rotate(7deg);}
+}
+@keyframes e4 {
+  0% { top: 994px; left: 197px; transform: rotate(0deg);}
+  50% { top: 1012px; left: 190px; transform: rotate(-15deg);}
+}
+@keyframes h {
+  0% { top: 965px; left: 283px; transform: rotate(0deg);}
+  50% { top: 978px; left: 270px; transform: rotate(15deg);}
+}
+@keyframes f {
+  0% { top: 1272px; left: 254px; transform: rotate(0deg);}
+  50% { top: 1262px; left: 242px; transform: rotate(5deg);}
+}
+@keyframes o4 {
+  0% { top: 1218px; left: 351px; transform: rotate(0deg);}
+  50% { top: 1200px; left: 345px; transform: rotate(0deg);}
+}
+@keyframes r3 {
+  0% { top: 1245px; left: 442px; transform: rotate(0deg);}
+  50% { top: 1235px; left: 432px; transform: rotate(-9deg);}
+}
+@keyframes m {
+  0% { top: 1274px; left: 537px; transform: rotate(0deg);}
+  50% { top: 1287px; left: 527px; transform: rotate(15deg);}
+}
+@keyframes i2 {
+  0% { top: 1531px; left: 376px; transform: rotate(0deg);}
+  50% { top: 1531px; left: 364px; transform: rotate(-9deg);}
+}
+@keyframes r4 {
+  0% { top: 1500px; left: 525px; transform: rotate(0deg);}
+  50% { top: 1520px; left: 515px; transform: rotate(9deg);}
+}
+@keyframes a3 {
+  0% { top: 1555px; left: 609px; transform: rotate(0deg);}
+  50% { top: 1570px; left: 609px; transform: rotate(-5deg);}
+}
+@keyframes z2 {
+  0% { top: 1545px; left: 691px; transform: rotate(0deg);}
+  50% { top: 1530px; left: 691px; transform: rotate(6deg);}
+}
+@keyframes m2 {
+  0% { top: 1531px; left: 770px; transform: rotate(0deg);}
+  50% { top: 1545px; left: 777px; transform: rotate(-6deg);}
+}
+@keyframes e5 {
+  0% { top: 1543px; left: 874px; transform: rotate(0deg);}
+  50% { top: 1553px; left: 883px; transform: rotate(10deg);}
+}
+@keyframes r5 {
+  0% { top: 1485px; left: 960px; transform: rotate(0deg);}
+  50% { top: 1470px; left: 960px; transform: rotate(0deg);}
+}
+@keyframes o5 {
+  0% { top: 1553px; left: 1021px; transform: rotate(0deg);}
+  50% { top: 1564px; left: 1011px; transform: rotate(0deg);}
+}
+@keyframes v4 {
+  0% { top: 1526px; left: 1111px; transform: rotate(0deg);}
+  50% { top: 1516px; left: 1121px; transform: rotate(5deg);}
+}
+@keyframes v5 {
+  0% { top: 2455px; left: 165px; transform: rotate(0deg);}
+  50% { top: 2445px; left: 155px; transform: rotate(-5deg);}
+}
+@keyframes u {
+  0% { top: 2414px; left: 250px; transform: rotate(0deg);}
+  50% { top: 2400px; left: 240px; transform: rotate(4deg);}
+}
+@keyframes b {
+  0% { top: 2407px; left: 364px; transform: rotate(0deg);}
+  50% { top: 2390px; left: 364px; transform: rotate(0deg);}
+}
+@keyframes e6 {
+  0% { top: 2431px; left: 455px; transform: rotate(0deg);}
+  50% { top: 2420px; left: 445px; transform: rotate(5deg);}
+}
+@keyframes r6 {
+  0% { top: 2385px; left: 544px; transform: rotate(0deg);}
+  50% { top: 2370px; left: 544px; transform: rotate(-5deg);}
+}
+@keyframes i3 {
+  0% { top: 2407px; left: 643px; transform: rotate(0deg);}
+  50% { top: 2390px; left: 634px; transform: rotate(0deg);}
+}
+@keyframes s2 {
+  0% { top: 2592px; left: 1009px; transform: rotate(0deg);}
+  50% { top: 2610px; left: 990px; transform: rotate(0deg);}
+}
+@keyframes e7 {
+  0% { top: 2643px; left: 1086px; transform: rotate(0deg);}
+  50% { top: 2656px; left: 1076px; transform: rotate(0deg);}
+}
+@keyframes b2 {
+  0% { top: 2625px; left: 1179px; transform: rotate(0deg);}
+  50% { top: 2640px; left: 1169px; transform: rotate(0deg);}
+}
+@keyframes e8 {
+  0% { top: 2649px; left: 1272px; transform: rotate(0deg);}
+  50% { top: 2660px; left: 1257px; transform: rotate(0deg);}
+}
+@keyframes d {
+  0% { top: 2933px; left: 205px; transform: rotate(0deg);}
+  50% { top: 2943px; left: 220px; transform: rotate(0deg);}
+}
+@keyframes r7 {
+  0% { top: 2966px; left: 299px; transform: rotate(0deg);}
+  50% { top: 2978px; left: 312px; transform: rotate(-6deg);}
+}
+@keyframes x {
+  0% { top: 2928px; left: 385px; transform: rotate(0deg);}
+  50% { top: 2918px; left: 385px; transform: rotate(-10deg);}
+}
+@keyframes g {
+  0% { top: 2899px; left: 470px; transform: rotate(0deg);}
+  50% { top: 2884px; left: 470px; transform: rotate(0deg);}
+}
+@keyframes a4 {
+  0% { top: 2866px; left: 544px; transform: rotate(0deg);}
+  50% { top: 2850px; left: 544px; transform: rotate(0deg);}
+}

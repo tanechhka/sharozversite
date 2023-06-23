@@ -1,0 +1,1109 @@
+@media all and (max-width: 1920px) {
+  /* лэндинг */
+  .landing {
+    position: relative;
+    width: 100vw;
+    height: 246.60vw;
+  }
+  .landinground {
+    position: absolute;
+    width: 100vw;
+    height: 258.61vw;
+  }
+  /* текст */
+  .zagolovok {
+    font-family: 'Circe Rounded Alt Regular2';
+    font-weight: normal;
+    font-size: 10.42vw;
+  }
+  .bigtext {
+    position: absolute;
+    font-family: 'Century Gothic Bold';
+    font-weight: bold;
+  	font-style: normal;
+    font-size: 1.67vw;
+    letter-spacing: 0.5px;
+    line-height: 1.88vw;
+  }
+  .bigtext.one {
+    top: 120.21vw;
+    left: 56.74vw;
+    transform: rotate(1deg);
+  }
+  .bigtext.two {
+    top: 218.06vw;
+    left: 24.24vw;
+    transform: rotate(-1deg);
+  }
+  .n {
+    position: absolute;
+    top: 0.90vw;
+    left: 41.81vw;
+    animation: n 2.5s linear infinite;
+  }
+  .o {
+    position: absolute;
+    top: 3.47vw;
+    left: 47.50vw;
+    animation: o 2.5s linear infinite;
+  }
+  .v {
+    position: absolute;
+    top: 0.35vw;
+    left: 53.82vw;
+    animation: v 2.5s linear infinite;
+  }
+  .a {
+    position: absolute;
+    top: 1.53vw;
+    left: 59.58vw;
+    animation: a 2.5s linear infinite;
+  }
+  .y {
+    position: absolute;
+    left: 65.28vw;
+    animation: y 2.5s linear infinite;
+  }
+  .k {
+    position: absolute;
+    top: 25.97vw;
+    left: 1.32vw;
+    animation: k 2.5s linear infinite;
+  }
+  .o2 {
+    position: absolute;
+    top: 25.69vw;
+    left: 7.29vw;
+    animation: o2 2.5s linear infinite;
+  }
+  .l {
+    position: absolute;
+    top: 27.78vw;
+    left: 12.78vw;
+    animation: l 2.5s linear infinite;
+  }
+  .l2 {
+    position: absolute;
+    top: 25vw;
+    left: 18.75vw;
+    animation: l2 2.5s linear infinite;
+  }
+  .e {
+    position: absolute;
+    top: 26.11vw;
+    left: 25.14vw;
+    animation: e 2.5s linear infinite;
+  }
+  .k2 {
+    position: absolute;
+    top: 23.47vw;
+    left: 30.69vw;
+    animation: k2 2.5s linear infinite;
+  }
+  .c {
+    position: absolute;
+    top: 24.72vw;
+    left: 37.08vw;
+    animation: c 2.5s linear infinite;
+  }
+  .i {
+    position: absolute;
+    top: 22.22vw;
+    left: 43.40vw;
+    animation: i 2.5s linear infinite;
+  }
+  .y2 {
+    position: absolute;
+    top: 23.75vw;
+    left: 49.79vw;
+    animation: y2 2.5s linear infinite;
+  }
+  .w {
+    position: absolute;
+    top: 48.75vw;
+    left: 33.61vw;
+    animation: w 2.5s linear infinite;
+  }
+  .a2 {
+    position: absolute;
+    top: 51.60vw;
+    left: 41.88vw;
+    animation: a2 2.5s linear infinite;
+  }
+  .r {
+    position: absolute;
+    top: 49.10vw;
+    left: 47.01vw;
+    animation: r 2.5s linear infinite;
+  }
+  .o3 {
+    position: absolute;
+    top: 51.32vw;
+    left: 53.33vw;
+    animation: o3 2.5s linear infinite;
+  }
+  .z {
+    position: absolute;
+    top: 52.08vw;
+    left: 60.07vw;
+    animation: z 2.5s linear infinite;
+  }
+  .v2 {
+    position: absolute;
+    top: 50.83vw;
+    left: 65.69vw;
+    animation: v2 2.5s linear infinite;
+  }
+  .e2 {
+    position: absolute;
+    top: 50.42vw;
+    left: 71.32vw;
+    animation: e2 2.5s linear infinite;
+  }
+  .r2 {
+    position: absolute;
+    top: 50.14vw;
+    left: 77.36vw;
+    animation: r2 2.5s linear infinite;
+  }
+  .e3 {
+    position: absolute;
+    top: 52.85vw;
+    left: 83.47vw;
+    animation: e3 2.5s linear infinite;
+  }
+  .q {
+    position: absolute;
+    top: 51.11vw;
+    left: 90vw;
+    animation: q 2.5s linear infinite;
+  }
+  .v3 {
+    position: absolute;
+    top: 70.97vw;
+    left: 3.47vw;
+    animation: v3 2.5s linear infinite;
+  }
+  .s {
+    position: absolute;
+    top: 67.85vw;
+    left: 8.68vw;
+    animation: s 2.5s linear infinite;
+  }
+  .e4 {
+    position: absolute;
+    top: 69.03vw;
+    left: 13.68vw;
+    animation: e4 2.5s linear infinite;
+  }
+  .h {
+    position: absolute;
+    top: 67.01vw;
+    left: 19.65vw;
+    animation: h 2.5s linear infinite;
+  }
+  .f {
+    position: absolute;
+    top: 88.33vw;
+    left: 17.64vw;
+    animation: f 2.5s linear infinite;
+  }
+  .o4 {
+    position: absolute;
+    top: 84.58vw;
+    left: 24.38vw;
+    animation: o4 2.5s linear infinite;
+  }
+  .r3 {
+    position: absolute;
+    top: 86.46vw;
+    left: 30.69vw;
+    animation: r3 2.5s linear infinite;
+  }
+  .m {
+    position: absolute;
+    top: 88.47vw;
+    left: 37.29vw;
+    animation: m 2.5s linear infinite;
+  }
+  .i2 {
+    position: absolute;
+    top: 106.32vw;
+    left: 26.11vw;
+    animation: i2 2.5s linear infinite;
+  }
+  .r4 {
+    position: absolute;
+    top: 104.17vw;
+    left: 36.46vw;
+    animation: r4 2.5s linear infinite;
+  }
+  .a3 {
+    position: absolute;
+    top: 107.99vw;
+    left: 42.29vw;
+    animation: a3 2.5s linear infinite;
+  }
+  .z2 {
+    position: absolute;
+    top: 107.29vw;
+    left: 47.99vw;
+    animation: z2 2.5s linear infinite;
+  }
+  .m2 {
+    position: absolute;
+    top: 106.32vw;
+    left: 53.47vw;
+    animation: m2 2.5s linear infinite;
+  }
+  .e5 {
+    position: absolute;
+    top: 107.15vw;
+    left: 60.69vw;
+    animation: e5 2.5s linear infinite;
+  }
+  .r5 {
+    position: absolute;
+    top: 103.13vw;
+    left: 66.67vw;
+    animation: r5 2.5s linear infinite;
+  }
+  .o5 {
+    position: absolute;
+    top: 107.85vw;
+    left: 70.90vw;
+    animation: o5 2.5s linear infinite;
+  }
+  .v4 {
+    position: absolute;
+    top: 105.97vw;
+    left: 77.15vw;
+    animation: v4 2.5s linear infinite;
+  }
+  .v5 {
+    position: absolute;
+    top: 170.49vw;
+    left: 11.46vw;
+    animation: v5 2.5s linear infinite;
+  }
+  .u {
+    position: absolute;
+    top: 167.64vw;
+    left: 17.36vw;
+    animation: u 2.5s linear infinite;
+  }
+  .b {
+    position: absolute;
+    top: 167.15vw;
+    left: 25.28vw;
+    animation: b 2.5s linear infinite;
+  }
+  .e6 {
+    position: absolute;
+    top: 168.82vw;
+    left: 31.60vw;
+    animation: e6 2.5s linear infinite;
+  }
+  .r6 {
+    position: absolute;
+    top: 165.63vw;
+    left: 37.78vw;
+    animation: r6 2.5s linear infinite;
+  }
+  .i3 {
+    position: absolute;
+    top: 167.15vw;
+    left: 44.65vw;
+    animation: i3 2.5s linear infinite;
+  }
+  .s2 {
+    position: absolute;
+    top: 180vw;
+    left: 70.07vw;
+    animation: s2 2.5s linear infinite;
+  }
+  .e7 {
+    position: absolute;
+    top: 183.54vw;
+    left: 75.42vw;
+    animation: e7 2.5s linear infinite;
+  }
+  .b2 {
+    position: absolute;
+    top: 182.29vw;
+    left: 81.88vw;
+    animation: b2 2.5s linear infinite;
+  }
+  .e8 {
+    position: absolute;
+    top: 183.96vw;
+    left: 88.33vw;
+    animation: e8 2.5s linear infinite;
+  }
+  .d {
+    position: absolute;
+    top: 203.68vw;
+    left: 14.24vw;
+    animation: d 2.5s linear infinite;
+  }
+  .r7 {
+    position: absolute;
+    top: 205.97vw;
+    left: 20.76vw;
+    animation: r7 2.5s linear infinite;
+  }
+  .x {
+    position: absolute;
+    top: 203.33vw;
+    left: 26.74vw;
+    animation: x 2.5s linear infinite;
+  }
+  .g {
+    position: absolute;
+    top: 201.32vw;
+    left: 32.64vw;
+    animation: g 2.5s linear infinite;
+  }
+  .a4 {
+    position: absolute;
+    top: 199.03vw;
+    left: 37.78vw;
+    animation: a4 2.5s linear infinite;
+  }
+  /* загагули */
+  .cminiblue {
+    position: absolute;
+    width: 8.33vw;
+    height: 6.25vw;
+  }
+  .cminiblue.one {
+    top: 1.32vw;
+    left: 70.63vw;
+    animation: cminiblue1 2.5s linear infinite;
+  }
+  .cminiblue.two {
+    top: 14.24vw;
+    left: 45.49vw;
+    transform: rotate(200deg);
+    animation: cminiblue2 2.5s linear infinite;
+  }
+  .cminiblue.three {
+    top: 77.50vw;
+    left: 16.81vw;
+    transform: rotate(311deg);
+    animation: cminiblue.three 2.5s linear infinite;
+  }
+  .cminiblue.four {
+    top: 85.35vw;
+    left: 39.03vw;
+    transform: rotate(333deg);
+    animation: cminiblue.four 2.5s linear infinite;
+  }
+  .cminiblue.five {
+    top: 91.39vw;
+    left: 89.44vw;
+    transform: rotate(126deg);
+    animation: cminiblue.five 2.5s linear infinite;
+  }
+  .cminiblue.six {
+    top: 152.85vw;
+    left: 41.25vw;
+    transform: rotate(300deg);
+    animation: cminiblue.six 2.5s linear infinite;
+  }
+  .cminiyellow {
+    position: absolute;
+    width: 8.33vw;
+    height: 4.86vw;
+  }
+  .cminiyellow.one {
+    top: 23.06vw;
+    left: 86.53vw;
+  }
+  .cminiyellow.two {
+    top: 215.69vw;
+    left: 59.24vw;
+    transform: rotate(356deg);
+  }
+  .cminired {
+    position: absolute;
+    width: 8.33vw;
+    height: 6.25vw;
+  }
+  .cminired.one {
+    top: 36.60vw;
+    left: 2.08vw;
+  }
+  .cminired.two {
+    top: 205.90vw;
+    left: 1.11vw;
+    transform: rotate(130deg);
+  }
+  .cminired.three {
+    top: 209.24vw;
+    left: 74.44vw;
+    transform: rotate(161deg);
+  }
+  .cminigreen {
+    position: absolute;
+    width: 8.33vw;
+    height: 6.25vw;
+  }
+  .cminigreen.one {
+    top: 152.15vw;
+    left: 88.75vw;
+  }
+  .cminigreen.two {
+    top: 223.06vw;
+    left: 14.93vw;
+    transform: rotate(312deg);
+  }
+  .ccgreen {
+    position: absolute;
+    width: 6.25vw;
+    height: 6.94vw;
+  }
+  .ccgreen.one {
+    position: absolute;
+    top: 8.13vw;
+    left: 84.24vw;
+  }
+  .ccgreen.two {
+    position: absolute;
+    top: 114.10vw;
+    left: 88.26vw;
+    transform: rotate(75deg);
+  }
+  .ccgreen.three {
+    position: absolute;
+    top: 215.28vw;
+    left: 91.46vw;
+    transform: rotate(355deg);
+  }
+  .ccgreen.four {
+    position: absolute;
+    top: 214.58vw;
+    left: 12.99vw;
+    transform: rotate(26deg);
+  }
+  .ccyellow {
+    position: absolute;
+    width: 6.25vw;
+    height: 6.94vw;
+  }
+  .ccyellow.one {
+    position: absolute;
+    top: 35.97vw;
+    left: 33.68vw;
+  }
+  .ccyellow.two {
+    position: absolute;
+    top: 81.81vw;
+    left: 61.32vw;
+    transform: rotate(17deg);
+  }
+  .ccyellow.three {
+    position: absolute;
+    top: 166.18vw;
+    left: 89.65vw;
+    transform: rotate(261deg);
+  }
+  .ccred {
+    position: absolute;
+    width: 6.25vw;
+    height: 6.94vw;
+  }
+  .ccred.one {
+    position: absolute;
+    top: 65.28vw;
+    left: 87.99vw;
+  }
+  .ccred.two {
+    position: absolute;
+    top: 118.68vw;
+    left: 48.13vw;
+  }
+  .ccblue {
+    position: absolute;
+    width: 6.25vw;
+    height: 6.94vw;
+  }
+  .ccblue.one {
+    position: absolute;
+    top: 129.79vw;
+    left: 2.71vw;
+  }
+
+  .ccccccyellow {
+    position: absolute;
+    width: 15.76vw;
+    height: 12.08vw;
+  }
+  .ccccccyellow.one {
+    top: 10.35vw;
+    left: 51.74vw;
+  }
+  .ccccccyellow.two {
+    top: 194.44vw;
+    left: 81.25vw;
+    transform: rotate(223deg);
+  }
+  .ccccccred {
+    position: absolute;
+    width: 15.76vw;
+    height: 12.08vw;
+  }
+  .ccccccred.one {
+    top: 96.67vw;
+    left: 2.78vw;
+  }
+  .ccccccblue {
+    position: absolute;
+    width: 15.76vw;
+    height: 12.08vw;
+  }
+  .ccccccblue.one {
+    top: 140.42vw;
+    left: 50vw;
+  }
+
+  .ccccgreen {
+    position: absolute;
+    width: 15.28vw;
+    height: 11.81vw;
+  }
+  .ccccgreen.one {
+    top: 17.57vw;
+    left: 73.47vw;
+  }
+  .ccccgreen.two {
+    top: 96.32vw;
+    left: 23.40vw;
+    transform: rotate(17deg);
+  }
+  .ccccblue {
+    position: absolute;
+    width: 12.50vw;
+    height: 13.89vw;
+  }
+  .ccccblue.one {
+    top: 0.97vw;
+    left: 87.29vw;
+  }
+  .ccccblue.two {
+    top: 92.57vw;
+    left: 46.60vw;
+    transform: rotate(100deg);
+  }
+  .ccc {
+    position: absolute;
+    width: 19.44vw;
+    height: 11.11vw;
+  }
+  .ccc.one {
+    top: 11.04vw;
+    left: 65.76vw;
+    transform: rotate(290deg);
+  }
+  .ccc.two {
+    top: 38.26vw;
+    left: 24.10vw;
+  }
+  .ccc.three {
+    top: 129.38vw;
+    left: 77.22vw;
+    transform: rotate(354deg);
+  }
+  .cccgreen {
+    position: absolute;
+    top: 199.72vw;
+    left: 18.96vw;
+    width: 14.93vw;
+    height: 6.94vw;
+  }
+  .cccccblue {
+    position: absolute;
+    width: 19.44vw;
+    height: 9.72vw;
+  }
+  .cccccblue.one {
+    top: 39.65vw;
+    left: 3.61vw;
+  }
+  .cccccblue.two {
+    top: 218.68vw;
+    left: 74.24vw;
+    transform: rotate(20deg);
+  }
+  .cccccgreen {
+    position: absolute;
+    top: 89.93vw;
+    left: 64.38vw;
+    width: 19.44vw;
+    height: 9.72vw;
+  }
+  .cccccred {
+    position: absolute;
+    top: 235.49vw;
+    left: 32.08vw;
+    width: 19.44vw;
+    height: 9.72vw;
+  }
+  .cccccyellow {
+    position: absolute;
+    top: 207.50vw;
+    left: 34.17vw;
+    width: 19.44vw;
+    height: 9.72vw;
+  }
+
+  .bigcmini {
+    position: absolute;
+    top: 138.47vw;
+    left: 41.11vw;
+    width: 12.50vw;
+    height: 14.58vw;
+  }
+
+  .kotik {
+    position: absolute;
+    top: 80.76vw;
+    left: 3.61vw;
+    width: 12.50vw;
+    height: 14.58vw;
+  }
+  .misha {
+    position: absolute;
+    top: 111.11vw;
+    left: 4.31vw;
+    width: 16.67vw;
+    height: 16.67vw;
+  }
+  .snake {
+    position: absolute;
+    top: 98.61vw;
+    left: 70.21vw;
+    width: 22.92vw;
+    height: 12.50vw;
+  }
+  .bigc {
+    position: absolute;
+    top: 72.85vw;
+    left: 28.19vw;
+    width: 11.81vw;
+    height: 9.72vw;
+  }
+  .slonik {
+    position: absolute;
+    top: 153.33vw;
+    left: 43.26vw;
+    width: 21.53vw;
+    height: 20.83vw;
+  }
+  .zaichik {
+    position: absolute;
+    top: 176.32vw;
+    left: 10.42vw;
+    width: 20.14vw;
+    height: 22.22vw;
+  }
+  /* слон */
+  .slon {
+    position: absolute;
+    width: 44.58vw;
+    height: 26.53vw;
+    top: 0.28vw;
+    left: 0.69vw;
+    animation: slon 2s linear infinite;
+  }
+  /* кот */
+  .kot {
+    position: absolute;
+    width: 54.17vw;
+    height: 26.04vw;
+    top: 25.83vw;
+    left: 45.35vw;
+    animation: kot 2.5s linear infinite;
+  }
+  /* паук */
+  .pauk {
+    position: absolute;
+    top: 47.57vw;
+  }
+  .pauk:hover {
+    transform: scale(1.02);
+  }
+  .pauchok {
+    animation: pauk 2.5s linear infinite;
+    width: 65.97vw;
+    height: 48.61vw;
+  }
+  /* гусь */
+  .gus {
+    position: absolute;
+    top: 61.25vw;
+    left: 66.46vw;
+  }
+  .gus:hover {
+    transform: scale(1.05);
+  }
+  .gusok {
+    animation: gus 2.5s linear infinite;
+    width: 33.68vw;
+    height: 37.50vw;
+  }
+  /* мишка */
+  .mishka {
+    position: absolute;
+    width: 42.71vw;
+    height: 47.57vw;
+    top: 115.90vw;
+    left: 4.65vw;
+    animation: mishka 2.5s linear infinite;
+  }
+  /* мышка */
+  .mushka {
+    position: absolute;
+    width: 46.39vw;
+    height: 27.78vw;
+    top: 127.43vw;
+    left: 51.04vw;
+    animation: mushka 2.5s linear infinite;
+  }
+  /* улитка */
+  .ulitka {
+    position: absolute;
+    width: 43.40vw;
+    height: 45.49vw;
+    top: 147.08vw;
+    left: 52.78vw;
+    animation: ulitka 2.5s linear infinite;
+  }
+  /* заяц */
+  .zayac {
+    position: absolute;
+    width: 50.35vw;
+    height: 45.83vw;
+    top: 172.64vw;
+    left: 30vw;
+    animation: zayac 2.5s linear infinite;
+  }
+  /* жираф */
+  .ziraf {
+    position: absolute;
+    width: 31.60vw;
+    height: 92.01vw;
+    top: 153.19vw;
+    animation: ziraf 2.5s linear infinite;
+  }
+  /* черепаха */
+  .cherepaha {
+    position: absolute;
+    width: 48.61vw;
+    height: 19.79vw;
+    top: 224.58vw;
+    left: 49.31vw;
+    animation: cherepaha 2.5s linear infinite;
+  }
+  /* футер */
+  .footer {
+   position: relative;
+   width: 100vw;
+   height: 12.01vw;
+   background: black;
+  }
+  .bigtext.name {
+    color: white;
+    top: 3.47vw;
+    left: 4.17vw;
+  }
+  .bigtext.number {
+    color: white;
+    top: 6.60vw;
+    left: 4.17vw;
+  }
+  .footer img {
+    position: absolute;
+    width: 18.75vw;
+    height: 7.99vw;
+    top: 2.43vw;
+    left: 77.15vw;
+  }
+  /* анимация слона */
+  @keyframes slon {
+    0% { top: 0.28vw; left: 0.69vw; transform: rotate(0deg);}
+    50% {top: 0.83vw; left: 0.83vw; transform: rotate(-3deg);}
+  }
+  /* анимация паука */
+  @keyframes pauk {
+    0% { top:47.57vw; transform: rotate(0deg);}
+    50% { top:48.96vw; transform: rotate(-2deg);}
+  }
+  /* анимация медведя */
+  @keyframes mishka {
+    0% { top: 115.90vw; left: 4.65vw; transform: rotate(0deg);}
+    50% { top: 116.67vw; left: 5.35vw; transform: rotate(5deg);}
+  }
+  /* анимация кота */
+  @keyframes kot {
+    0% { top: 25.83vw; left: 45.35vw; transform: rotate(0deg);}
+    50% { top: 26.53vw; left: 44.65vw; transform: rotate(-3deg);}
+  }
+  /* анимация гуся */
+  @keyframes gus {
+    0% { top: 61.25vw; left: 66.46vw; transform: rotate(0deg);}
+    50% { top: 61.81vw; left: 65.76vw; transform: rotate(-5deg);}
+  }
+  /* анимация мышки */
+  @keyframes mushka {
+    0% { top: 127.43vw; left: 51.04vw; transform: rotate(0deg);}
+    50% { top: 126.74vw; left: 52.08vw; transform: rotate(5deg);}
+  }
+  /* анимация улитки */
+  @keyframes ulitka {
+    0% { top: 147.08vw; left: 52.78vw; transform: rotate(0deg);}
+    50% { top: 149.17vw; left: 52.78vw; transform: rotate(5deg);}
+  }
+  /* анимация зайца */
+  @keyframes zayac {
+    0% { top: 172.64vw; left: 30vw; transform: rotate(0deg);}
+    50% { top: 173.61vw; left: 30vw; transform: rotate(4deg);}
+  }
+  /* анимация жирафа */
+  @keyframes ziraf {
+    0% { top: 153.19vw; left: 0px; transform: rotate(0deg);}
+    50% { top: 153.89vw; left: 0px; transform: rotate(-2deg);}
+  }
+  /* анимация черепахи */
+  @keyframes cherepaha {
+    0% { top: 224.58vw; left: 49.31vw; transform: rotate(0deg);}
+    50% { top: 223.61vw; left: 47.92vw; transform: rotate(4deg);}
+  }
+  /* анимация букв */
+  @keyframes n {
+    0% { top:0.90vw;}
+    50% { top:0px;}
+  }
+  @keyframes o {
+    0% { top: 3.47vw; left: 47.50vw;}
+    50% { top: 4.17vw; left: 47.78vw;}
+  }
+  @keyframes v {
+    0% { top: 0.35vw; left:53.82vw;}
+    50% { top: 0.83vw; left: 53.40vw;}
+    75% { top: 1.11vw; left: 53.61vw;}
+  }
+  @keyframes a {
+    0% { top: 1.53vw; left: 59.58vw;}
+    50% { top: 1.04vw; left: 59.03vw;}
+    75% { top: 1.25vw; left: 59.31vw;}
+  }
+  @keyframes y {
+    0% { top: 0px; left: 65.28vw;}
+    50% { top: 0.56vw; left: 64.93vw;}
+  }
+  @keyframes k {
+    0% { top: 25.97vw; left: 1.32vw;}
+    50% { top: 25.28vw; left: 1.32vw;}
+  }
+  @keyframes o2 {
+    0% { top: 25.69vw; left: 7.29vw;}
+    50% { top: 26.25vw; left: 7.29vw;}
+  }
+  @keyframes l {
+    0% { top: 27.78vw; left: 12.78vw; transform: rotate(0deg);}
+    50% { top: 28.47vw; left: 12.36vw; transform: rotate(5deg);}
+  }
+  @keyframes l2 {
+    0% { top: 25vw; left: 18.75vw; transform: rotate(0deg);}
+    50% { top: 24.38vw; left: 18.19vw; transform: rotate(-5deg);}
+  }
+  @keyframes e {
+    0% { top: 26.11vw; left: 25.14vw; transform: rotate(0deg);}
+    50% { top: 26.81vw; left: 24.58vw; transform: rotate(-10deg);}
+  }
+  @keyframes k2 {
+    0% { top: 23.47vw; left: 30.69vw; transform: rotate(0deg);}
+    50% { top: 22.57vw; left: 30.69vw; transform: rotate(3deg);}
+  }
+  @keyframes c {
+    0% { top: 24.72vw; left: 37.08vw; transform: rotate(0deg);}
+    50% { top: 24.72vw; left: 36.25vw; transform: rotate(-15deg);}
+  }
+  @keyframes i {
+    0% { top: 22.22vw; left: 43.40vw; transform: rotate(0deg);}
+    50% { top: 22.22vw; left: 42.50vw; transform: rotate(20deg);}
+  }
+  @keyframes y2 {
+    0% { top: 23.75vw; left: 49.79vw; transform: rotate(0deg);}
+    50% { top: 22.57vw; left: 48.82vw; transform: rotate(-15deg);}
+  }
+  @keyframes w {
+    0% { top: 48.75vw; left: 33.61vw; transform: rotate(0deg);}
+    50% { top: 49.65vw; left: 33.06vw; transform: rotate(17deg);}
+  }
+  @keyframes a2 {
+    0% { top: 51.60vw; left: 41.88vw; transform: rotate(0deg);}
+    50% { top: 50.69vw; left: 41.18vw; transform: rotate(5deg);}
+  }
+  @keyframes r {
+    0% { top: 49.10vw; left: 47.01vw; transform: rotate(0deg);}
+    50% { top: 49.79vw; left: 47.71vw; transform: rotate(10deg);}
+  }
+  @keyframes o3 {
+    0% { top: 51.32vw; left: 53.40vw; transform: rotate(0deg);}
+    50% { top: 52.01vw; left: 53.40vw; transform: rotate(0deg);}
+  }
+  @keyframes z {
+    0% { top: 52.08vw; left: 60.07vw; transform: rotate(0deg);}
+    50% { top: 51.39vw; left: 59.38vw; transform: rotate(-7deg);}
+  }
+  @keyframes v2 {
+    0% { top: 50.83vw; left: 65.69vw; transform: rotate(0deg);}
+    50% { top: 51.60vw; left: 65vw; transform: rotate(7deg);}
+  }
+  @keyframes e2 {
+    0% { top: 50.42vw; left: 71.32vw; transform: rotate(0deg);}
+    50% { top: 50.42vw; left: 70.35vw; transform: rotate(-15deg);}
+  }
+  @keyframes r2 {
+    0% { top: 50.14vw; left: 77.36vw; transform: rotate(0deg);}
+    50% { top: 50.42vw; left: 77.36vw; transform: rotate(-15deg);}
+  }
+  @keyframes e3 {
+    0% { top: 52.85vw; left: 83.47vw; transform: rotate(0deg);}
+    50% { top: 51.46vw; left: 84.17vw; transform: rotate(10deg);}
+  }
+  @keyframes q {
+    0% { top: 51.11vw; left: 90vw; transform: rotate(0deg);}
+    50% { top: 52.50vw; left: 90vw; transform: rotate(-7deg);}
+  }
+  @keyframes v3 {
+    0% { top: 70.97vw; left: 3.47vw; transform: rotate(0deg);}
+    50% { top: 72.57vw; left: 3.47vw; transform: rotate(10deg);}
+  }
+  @keyframes s {
+    0% { top: 67.85vw; left: 8.68vw; transform: rotate(0deg);}
+    50% { top: 69.44vw; left: 8.68vw; transform: rotate(7deg);}
+  }
+  @keyframes e4 {
+    0% { top: 69.03vw; left: 13.68vw; transform: rotate(0deg);}
+    50% { top: 70.28vw; left: 13.19vw; transform: rotate(-15deg);}
+  }
+  @keyframes h {
+    0% { top: 67.01vw; left: 19.65vw; transform: rotate(0deg);}
+    50% { top: 67.92vw; left: 18.75vw; transform: rotate(15deg);}
+  }
+  @keyframes f {
+    0% { top: 88.33vw; left: 17.64vw; transform: rotate(0deg);}
+    50% { top: 87.64vw; left: 16.81vw; transform: rotate(5deg);}
+  }
+  @keyframes o4 {
+    0% { top: 84.58vw; left: 24.38vw; transform: rotate(0deg);}
+    50% { top: 83.33vw; left: 23.96vw; transform: rotate(0deg);}
+  }
+  @keyframes r3 {
+    0% { top: 86.46vw; left: 30.69vw; transform: rotate(0deg);}
+    50% { top: 85.76vw; left: 30vw; transform: rotate(-9deg);}
+  }
+  @keyframes m {
+    0% { top: 88.47vw; left: 37.29vw; transform: rotate(0deg);}
+    50% { top: 89.38vw; left: 36.60vw; transform: rotate(15deg);}
+  }
+  @keyframes i2 {
+    0% { top: 106.32vw; left: 26.11vw; transform: rotate(0deg);}
+    50% { top:106.32vw; left: 25.28vw; transform: rotate(-9deg);}
+  }
+  @keyframes r4 {
+    0% { top: 104.17vw; left: 36.46vw; transform: rotate(0deg);}
+    50% { top: 105.56vw; left: 35.76vw; transform: rotate(9deg);}
+  }
+  @keyframes a3 {
+    0% { top: 107.99vw; left: 42.29vw; transform: rotate(0deg);}
+    50% { top: 109.03vw; left: 42.29vw; transform: rotate(-5deg);}
+  }
+  @keyframes z2 {
+    0% { top: 107.29vw; left: 47.99vw; transform: rotate(0deg);}
+    50% { top: 106.25vw; left: 47.99vw; transform: rotate(6deg);}
+  }
+  @keyframes m2 {
+    0% { top: 106.32vw; left: 53.47vw; transform: rotate(0deg);}
+    50% { top: 107.29vw; left: 53.96vw; transform: rotate(-6deg);}
+  }
+  @keyframes e5 {
+    0% { top: 107.15vw; left: 60.69vw; transform: rotate(0deg);}
+    50% { top: 107.85vw; left: 61.32vw; transform: rotate(10deg);}
+  }
+  @keyframes r5 {
+    0% { top: 103.13vw; left: 66.67vw; transform: rotate(0deg);}
+    50% { top: 102.08vw; left: 66.67vw; transform: rotate(0deg);}
+  }
+  @keyframes o5 {
+    0% { top: 107.85vw; left: 70.90vw; transform: rotate(0deg);}
+    50% { top: 108.61vw; left: 70.21vw; transform: rotate(0deg);}
+  }
+  @keyframes v4 {
+    0% { top: 105.97vw; left: 77.15vw; transform: rotate(0deg);}
+    50% { top: 105.28vw; left: 77.85vw; transform: rotate(5deg);}
+  }
+  @keyframes v5 {
+    0% { top: 170.49vw; left: 11.46vw; transform: rotate(0deg);}
+    50% { top: 169.79vw; left: 10.76vw; transform: rotate(-5deg);}
+  }
+  @keyframes u {
+    0% { top: 167.64vw; left: 17.36vw; transform: rotate(0deg);}
+    50% { top: 166.67vw; left: 16.67vw; transform: rotate(4deg);}
+  }
+  @keyframes b {
+    0% { top: 167.15vw; left: 25.28vw; transform: rotate(0deg);}
+    50% { top: 165.97vw; left: 25.28vw; transform: rotate(0deg);}
+  }
+  @keyframes e6 {
+    0% { top: 168.82vw; left: 31.60vw; transform: rotate(0deg);}
+    50% { top: 168.06vw; left: 30.90vw; transform: rotate(5deg);}
+  }
+  @keyframes r6 {
+    0% { top: 165.63vw; left: 37.78vw; transform: rotate(0deg);}
+    50% { top: 164.58vw; left: 37.78vw; transform: rotate(-5deg);}
+  }
+  @keyframes i3 {
+    0% { top: 167.15vw; left: 44.65vw; transform: rotate(0deg);}
+    50% { top: 165.97vw; left: 44.03vw; transform: rotate(0deg);}
+  }
+  @keyframes s2 {
+    0% { top: 180vw; left: 70.07vw; transform: rotate(0deg);}
+    50% { top: 181.25vw; left: 68.75vw; transform: rotate(0deg);}
+  }
+  @keyframes e7 {
+    0% { top: 183.54vw; left: 75.42vw; transform: rotate(0deg);}
+    50% { top: 184.44vw; left: 74.72vw; transform: rotate(0deg);}
+  }
+  @keyframes b2 {
+    0% { top: 182.29vw; left: 81.88vw; transform: rotate(0deg);}
+    50% { top: 183.33vw; left: 81.18vw; transform: rotate(0deg);}
+  }
+  @keyframes e8 {
+    0% { top: 183.96vw; left: 88.33vw; transform: rotate(0deg);}
+    50% { top: 184.72vw; left: 87.29vw; transform: rotate(0deg);}
+  }
+  @keyframes d {
+    0% { top: 203.68vw; left: 14.24vw; transform: rotate(0deg);}
+    50% { top: 204.38vw; left: 15.28vw; transform: rotate(0deg);}
+  }
+  @keyframes r7 {
+    0% { top: 205.97vw; left: 20.76vw; transform: rotate(0deg);}
+    50% { top: 206.81vw; left: 21.67vw; transform: rotate(-6deg);}
+  }
+  @keyframes x {
+    0% { top: 203.33vw; left: 26.74vw; transform: rotate(0deg);}
+    50% { top: 202.64vw; left: 26.74vw; transform: rotate(-10deg);}
+  }
+  @keyframes g {
+    0% { top: 201.32vw; left: 32.64vw; transform: rotate(0deg);}
+    50% { top: 200.28vw; left: 32.64vw; transform: rotate(0deg);}
+  }
+  @keyframes a4 {
+    0% { top: 199.03vw; left: 37.78vw; transform: rotate(0deg);}
+    50% { top: 197.92vw; left: 37.78vw; transform: rotate(0deg);}
+  }
+}
