@@ -35,10 +35,32 @@
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  justify-content: center;
-  gap: 2.08vw;
-  overflow: hidden;
+  overflow-y: scroll;
+
 }
+
+.aksesuari::-webkit-scrollbar {
+  width: 12px;
+}
+
+.aksesuari::-webkit-scrollbar-track {
+  margin: 0 4vw;
+  background: none;
+}
+
+.aksesuari::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 3vw solid black;
+}
+.sliders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2.78vw;
+}
+
 .korm {
   display: flex;
   flex-direction: column;
@@ -49,8 +71,9 @@
   border-radius: 3.47vw;
   background: url(../images/korm.png);
   background-size: 100%;
+  margin: 0 2.78vw  0 0;
 }
-.blackk {
+.korm:hover {
   color: white;
   background: url(../images/kormblack.png);
   background-size: 100%;
@@ -65,8 +88,9 @@
   border-radius: 3.47vw;
   background: url(../images/shoper.png);
   background-size: 100%;
+  margin: 0 2.78vw  0 0;
 }
-.blacks {
+.shoper:hover {
   color: white;
   background: url(../images/shoperblack.png);
   background-size: 100%;
@@ -81,8 +105,9 @@
   border-radius: 3.47vw;
   background: url(../images/paket.png);
   background-size: 100%;
+  margin: 0 2.78vw  0 0;
 }
-.blackp {
+.paket:hover {
   color: white;
   background: url(../images/paketblack.png);
   background-size: 100%;
@@ -97,8 +122,9 @@
   border-radius: 3.47vw;
   background: url(../images/osheynik.png);
   background-size: 100%;
+  margin: 0 2.78vw  0 0;
 }
-.blacko {
+.osheynik:hover {
   color: white;
   background: url(../images/osheynikblack.png);
   background-size: 100%;

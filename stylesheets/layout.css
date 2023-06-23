@@ -2,6 +2,20 @@ html::-webkit-scrollbar {
   width: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 3vw solid black;
+}
+
 body, html {
   overflow-x: hidden;
   clip: rect(auto, auto, auto, auto);
@@ -394,19 +408,43 @@ a {
   height: 56.5vw;
   position: relative;
   z-index: 1;
-  display: block;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .container {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
   white-space: nowrap;
   width: 400vw;
-  height: 35.04vw;
+  height: 39.04vw;
+  flex-direction: row;
   background-size: cover;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+}
+.container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.container::-webkit-scrollbar-track {
+  margin: 0 4vw;
+  background: none;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 3vw solid black;
+}
+.sliders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2.78vw;
 }
 
 .slider {
