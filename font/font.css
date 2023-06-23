@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'TT Chocolates Educational';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../font/TT Chocolates Educational/TT Chocolates Educational Bold.otf');
+}
+@font-face {
+    font-family: 'TT Chocolates Educational';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../font/TT Chocolates Educational/TT Chocolates Educational Medium.otf');
+}
+@font-face {
+    font-family: 'TT Milks Casual Pie Educational';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../font/TT Milks Casual Pie Educational 1-010/TT Milks Casual Pie Educational.ttf');
+}

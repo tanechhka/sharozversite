@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 8.78vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  outline: 0.42vw solid black;
+  z-index: 1;
+}
+
+.strelka2 {
+  background: url(../images/strelka2.svg);
+  background-size: cover;
+  width: 3.3vw;
+  height: 3.3vw;
+  margin: 0 2.78vw;
+}
+
+.h1 {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 3.33vw;
+  text-align: center;
+}
+
+.h2 {
+  position: absolute;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 2vw;
+  text-align: center;
+  left: 78.82vw;
+  top: 3.4vw;
+}
+
+.strelka {
+  background: url(../images/strelka.svg);
+  background-size: cover;
+  width: 3.3vw;
+  height: 3.3vw;
+  margin: 0 2.78vw;
+}
+
+.cardsandbuttom {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.card {
+  position: relative;
+  top: 12.15vw;
+  height: 84.5vw;
+  width: 66.96vw;
+  display: grid;
+  grid-template-columns: 29.95vw 29.95vw;
+  grid-auto-rows: 39.67vw;
+  grid-auto-flow: row;
+  gap: 2.08vw;
+  margin: 2.43vw 4.17vw;
+}
+
+.ziraf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 29.94vw;
+  height: 39.67vw;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  background: url(../images/zirafcard.png);
+  background-size: cover;
+}
+
+.osheynik {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 29.94vw;
+  height: 39.67vw;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  background: url(../images/osheynik.png);
+  background-size: cover;
+}
+
+.paket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 29.94vw;
+  height: 39.67vw;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  background: url(../images/paket.png);
+  background-size: cover;
+}
+
+.krest {
+  position: relative;
+  background: url(../images/krest.svg);
+  background-size: cover;
+  width: 3.3vw;
+  height: 3.3vw;
+  margin: 1.78vw;
+}
+
+.text {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 1.2;
+  margin: 1.78vw;
+}
+
+.textandbuttom {
+  position: fixed;
+  top: 60%;
+  left: 75vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 -4.5vw;
+}
+
+.paragraph {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 500;
+  font-size: 1.67vw;
+  line-height: 1.2;
+  margin: 1.08vw 0;
+  text-align: center;
+}
+
+.buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.78vw;
+  background-color: black;
+  width: 25.83vw;
+  height: 6vw;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 2.92vw;
+  margin: 2.08vw 0;
+  color: white;
+}
+
+.buttom:hover {
+  background-color: #ED427F;
+}

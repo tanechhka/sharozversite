@@ -1,0 +1,234 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.vid {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 0.15s;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.vid2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 125%;
+  transition: transform 0.5s ease-out;
+}
+
+.crocodilrozoviy {
+  position: relative;
+  width: 39.51vw;
+  height: 32.64vw;
+  top: 6.9vw;
+  left: 73.65vw;
+  transform: rotate(336deg);
+  background: url(../images/crocodilrozoviy.png);
+  background-size: 100%;
+}
+.crocodil {
+  position: relative;
+  width: 42.08vw;
+  height: 37.21vw;
+  top: -1.43vw;
+  left: 101.26vw;
+  transform: rotate(350deg);
+  background: url(../images/crocodil.png);
+  background-size: 100%;
+}
+.obezyanasinya {
+  position: relative;
+  width: 42.35vw;
+  height: 41.85vw;
+  top:-92.21vw;
+  left: 101.35vw;
+  transform: rotate(300deg);
+  background: url(../images/obezyanasinya.png);
+  background-size: 100%;
+}
+.odezyana {
+  position: relative;
+  width: 42.92vw;
+  height: 39.51vw;
+  top: -119.7vw;
+  left: 9.24vw;
+  transform: rotate(350deg);
+  background: url(../images/odezyana.png);
+  background-size: 100%;
+}
+.sobakazeltaya {
+  position: relative;
+  width: 46.94vw;
+  height: 42.50vw;
+  top: -101.98vw;
+  left: 66.32vw;
+  transform: rotate(352deg);
+  background: url(../images/sobakazeltaya.png);
+  background-size: 100%;
+}
+.sobaka {
+  position: relative;
+  width: 38.82vw;
+  height: 35.28vw;
+  top: -147.9vw;
+  left: -8.6vw;
+  transform: rotate(345deg);
+  background: url(../images/sobaka.png);
+  background-size: 100%;
+}
+.zayacrozoviy {
+  position: relative;
+  width: 36.46vw;
+  height: 35.14vw;
+  top: -198.51vw;
+  left: 30.76vw;
+  transform: rotate(327deg);
+  background: url(../images/zayacrozoviy.png);
+  background-size: 100%;
+}
+.zayac {
+  position: relative;
+  width: 42.64vw;
+  height: 39.31vw;
+  top: -232.61vw;
+  left: -42.43vw;
+  background: url(../images/zayac.png);
+  background-size: 100%;
+}
+.zirafrozoviy {
+  position: relative;
+  width: 48.86vw;
+  height: 46.61vw;
+  top: -326.8vw;
+  left: -35.18vw;
+  transform: rotate(24deg);
+  background: url(../images/zirafrozoviy.png);
+  background-size: 100%;
+}
+.ziraf {
+  position: relative;
+  width: 45.49vw;
+  height: 42.92vw;
+  top: -371.97vw;
+  left: 55.75vw;
+  transform: rotate(63deg);
+  background: url(../images/ziraf.png);
+  background-size: 100%;
+}
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 2.78vw;
+  display: block;
+  top: 2.78vw;
+  z-index: 1;
+}
+.krest {
+  background: url(../images/krest.svg);
+  background-size: 100%;
+  width: 2.78vw;
+  height: 2.78vw;
+  margin-left: auto;
+  margin-right: 2.78vw;
+}
+.cartazverya {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.zirafrozoviysquare {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 1vw;
+}
+.menu2 {
+  position: absolute;
+  width: 100%;
+  height: 2.78vw;
+  display: block;
+  top: 2.78vw;
+}
+.krest2 {
+  background: url(../images/krest.svg);
+  background-size: 100%;
+  width: 2.78vw;
+  height: 2.78vw;
+  margin-left: 2.78vw;
+  margin-right: auto;
+}
+.imgzirafrozoviy {
+  position: relative;
+  background: url(../images/zirafrozoviy.png);
+  background-size: 100%;
+  width: 45.32vw;
+  height: 48.5vw;
+  transform: rotate(20deg);
+}
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 -2.78vw;
+}
+.h1 {
+  font-family: 'TT Milks Casual Pie Educational';
+  font-size: 6.94vw;
+  margin: 1.39vw 0;
+}
+.plazki {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 1.81vw;
+  display: flex;
+  flex-direction: row;
+  width: 8.33vw;
+  align-items: center;
+  gap: 1.74vw;
+}
+.plazki div {
+  position: relative;
+  padding: 0.69vw 1.74vw;
+  border-radius: 2.78vw;
+  border: 0.42vw solid black;
+}
+.paragraph {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 500;
+  font-size: 1.67vw;
+  line-height: 1.2;
+  margin: 2.08vw 0;
+}
+.buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.78vw;
+  background-color: black;
+  width: 25.83vw;
+  height: 6vw;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 2.92vw;
+  color: white;
+}
+.buttom:hover {
+  background-color: #ED427F;
+}

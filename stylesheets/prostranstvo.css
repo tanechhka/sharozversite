@@ -1,0 +1,88 @@
+.menu {
+  position: absolute;
+  width: 100%;
+  height: 2.78vw;
+  display: block;
+  top: 2.78vw;
+}
+
+.krest {
+  background: url(../images/krest.svg);
+  background-size: 100%;
+  width: 2.78vw;
+  height: 2.78vw;
+  margin-left: auto;
+  margin-right: 2.78vw;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  font-family: 'TT Milks Casual Pie Educational';
+  font-size: 11.94vw;
+  margin: 1.78vw auto;
+}
+
+.text {
+  margin: -56.88vw  auto 4.17vw auto;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 500;
+  font-size: 1.67vw;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.form {
+  margin: -7.85vw auto 2.08vw auto;
+  background: url(../images/form.svg);
+  background-size: 100%;
+  width: 96.3vw;
+  height: 60.5vw;
+}
+
+.plan {
+  margin: -49.10vw auto 4.17vw auto;
+  background: url(../images/plan.svg);
+  background-size: 100%;
+  width: 82.3vw;
+  height: 45.5vw;
+}
+
+.invisiblecirleyellow {
+  position: absolute;
+  top: 45.35vw;
+  left: 6.81vw;
+  width: 34.79vw;
+  height: 24.10vw;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+
+.invisiblecirlered {
+  position: absolute;
+  top: 31.25vw;
+  left: 35.49vw;
+  width: 23.13vw;
+  height: 23.33vw;
+  border-radius: 50%;
+}
+
+.invisiblecirlegreen {
+  position: absolute;
+  top: 24.03vw;
+  left: 60.49vw;
+  width: 30.69vw;
+  height: 30.69vw;
+  border-radius: 50%;
+}
+
+.invisiblecirleblue {
+  position: absolute;
+  top: 54.24vw;
+  left: 43.96vw;
+  width: 26.46vw;
+  height: 15.21vw;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}

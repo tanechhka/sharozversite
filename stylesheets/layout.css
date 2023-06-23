@@ -1,0 +1,661 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.view1 {
+  width: 100%;
+  height: 62.50vw;
+  position: relative;
+  z-index: 2;
+}
+/* меню */
+
+.menu {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 1.81vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1.74vw;
+  height: 8.33vw;
+}
+
+.menu div {
+  position: relative;
+  padding: 0.69vw 1.74vw;
+  border-radius: 2.78vw;
+  border: 0.42vw solid black;
+  background-color: white;
+  color: black;
+}
+
+#zveryata:hover {
+  background-color: black;
+  color: white;
+}
+
+#prostranstvo:hover {
+  background-color: black;
+  color: white;
+}
+
+#afisha:hover {
+  background-color: black;
+  color: white;
+}
+
+#korzina:hover {
+  background-color: black;
+  color: white;
+}
+/* надпись шарозверь */
+
+.h1 {
+  font-family: 'TT Milks Casual Pie Educational';
+  font-size: 13.19vw;
+}
+
+.sh {
+  position: absolute;
+  top: 25.57vw;
+  left: 9.69vw;
+  animation: sh 1.5s ease-in-out infinite;
+}
+@keyframes sh {
+  0% { top: 25.57vw;}
+  50% { top: 24vw; }
+}
+.a {
+  position: absolute;
+  top: 28.57vw;
+  left: 21.68vw;
+  animation: a 1.5s ease-in-out infinite;
+}
+@keyframes a {
+  0% { top: 28.57vw;}
+  50% { top: 29.57vw; }
+}
+.r {
+  position: absolute;
+  top: 25.57vw;
+  left: 29.68vw;
+  animation: r 1.8s ease-in-out infinite;
+}
+@keyframes r {
+  0% { top: 25.57vw;}
+  50% { top: 27.57vw; }
+}
+.o {
+  position: absolute;
+  top: 28.57vw;
+  left: 37.68vw;
+  animation: o 1.5s ease-in-out infinite;
+}
+@keyframes o {
+  0% { top: 28.57vw;}
+  50% { top: 30.57vw; }
+}
+.z {
+  position: absolute;
+  top: 25.57vw;
+  left: 48.68vw;
+  animation: z 1.8s ease-in-out infinite;
+}
+@keyframes z {
+  0% { top: 25.57vw;}
+  50% { top: 27.57vw; }
+}
+.v {
+  position: absolute;
+  top: 28.57vw;
+  left: 56.68vw;
+  animation: v 1.5s ease-in-out infinite;
+}
+@keyframes v {
+  0% { top: 28.57vw;}
+  50% { top: 30.57vw; }
+}
+.e {
+  position: absolute;
+  top: 31.57vw;
+  left: 65.68vw;
+  animation: e 1.8s ease-in-out infinite;
+}
+@keyframes e {
+  0% { top: 31.57vw;}
+  50% { top: 29.57vw; }
+}
+.r2 {
+  position: absolute;
+  top: 28.57vw;
+  left: 73.68vw;
+  animation: r2 1.8s ease-in-out infinite;
+}
+@keyframes r2 {
+  0% { top: 28.57vw;}
+  50% { top: 30.57vw; }
+}
+.q {
+  position: absolute;
+  top: 31.57vw;
+  left: 81.98vw;
+  animation: q 1.5s ease-in-out infinite;
+}
+@keyframes q {
+  0% { top: 31.57vw;}
+  50% { top: 29.57vw; }
+}
+/* шары летающие */
+.sh1 {
+  position: absolute;
+  top: -5.82vw;
+  left: -1.53vw;
+  background: url(../images/sh1.svg);
+  background-size: 100%;
+  width: 19.65vw;
+  height: 30.5vw;
+  transition-delay: 2s;
+}
+.sh1:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+
+.sh2 {
+  position: absolute;
+  top: -3.9vw;
+  left: 16.58vw;
+  background: url(../images/sh2.svg);
+  background-size: 100%;
+  width: 11.64vw;
+  height: 14.75vw;
+  transition-delay: 2s;
+}
+.sh2:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh3 {
+  position: absolute;
+  top: -1.39vw;
+  left: 19.58vw;
+  background: url(../images/sh3.svg);
+  background-size: 100%;
+  width: 37.65vw;
+  height: 32.75vw;
+  transition-delay: 2s;
+}
+.sh3:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh4 {
+  position: absolute;
+  top: 32.72vw;
+  left: 0.14vw;
+  background: url(../images/sh4.svg);
+  background-size: 100%;
+  width: 15.64vw;
+  height: 20.75vw;
+  transition-delay: 2s;
+}
+.sh4:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh5 {
+  position: absolute;
+  top: 41.18vw;
+  left: 10.83vw;
+  background: url(../images/sh5.svg);
+  background-size: 100%;
+  transform: rotate(196deg);
+  width: 17.9vw;
+  height: 26.75vw;
+  transition-delay: 2s;
+}
+.sh5:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh6 {
+  position: absolute;
+  top: 38.58vw;
+  left: 27.92vw;
+  background: url(../images/sh6.svg);
+  background-size: 100%;
+  transform: rotate(303deg);
+  width: 17.95vw;
+  height: 20.75vw;
+  transition-delay: 2s;
+}
+.sh6:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh7 {
+  position: absolute;
+  top: 38.06vw;
+  left: 42.50vw;
+  background: url(../images/sh7.svg);
+  background-size: 100%;
+  width: 15.95vw;
+  height: 12.75vw;
+  transition-delay: 2s;
+}
+.sh7:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh8 {
+  position: absolute;
+  top: 13.13vw;
+  left: 60.35vw;
+  background: url(../images/sh8.svg);
+  background-size: 100%;
+  width: 11.95vw;
+  height: 14.75vw;
+  transition-delay: 2s;
+}
+.sh8:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh9 {
+  position: absolute;
+  top: 38.69vw;
+  left: 52.08vw;
+  background: url(../images/sh9.svg);
+  background-size: 100%;
+  transform: rotate(17deg);
+  width: 26.95vw;
+  height: 25.75vw;
+  transition-delay: 2s;
+}
+.sh9:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh10 {
+  position: absolute;
+  top: 0.97vw;
+  left: 62.78vw;
+  background: url(../images/sh10.svg);
+  background-size: 100%;
+  width: 34.95vw;
+  height: 26.75vw;
+  transition-delay: 2s;
+}
+.sh10:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh11 {
+  position: absolute;
+  top: -3.75vw;
+  left: 80.85vw;
+  background: url(../images/sh11.svg);
+  background-size: 100%;
+  width: 18.95vw;
+  height: 16.7vw;
+  transition-delay: 2s;
+}
+.sh11:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh12 {
+  position: absolute;
+  top: 39.51vw;
+  left: 81.81vw;
+  background: url(../images/sh12.svg);
+  background-size: 100%;
+  width: 16.95vw;
+  height: 18.75vw;
+  transition-delay: 2s;
+}
+.sh12:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+.sh13 {
+  position: absolute;
+  top: 55.18vw;
+  left: 67.53vw;
+  background: url(../images/sh13.svg);
+  background-size: 100%;
+  width: 11.95vw;
+  height: 12.75vw;
+  transition-delay: 2s;
+}
+.sh13:hover {
+  opacity: 0;
+  transition: 0.01s;
+}
+
+.view2 {
+  width: 100%;
+  height: 85.50vw;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.ramka {
+  position: relative;
+  width: 100%;
+  outline: 0.42vw solid black;
+  height: 62.50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2 {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 3.33vw;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 7.61vw;
+}
+
+.igra {
+  position: absolute;
+  width: 84.03vw;
+  height: 59.72vw;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  top: 21.78vw;
+  background: url(../images/igra.png);
+  background-size: 100%;
+  left: 8vw;
+}
+
+.view3 {
+  width: 100%;
+  height: 56.5vw;
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+}
+
+.listalka {
+  position: relative;
+  height: 55.69vw;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.08vw;
+  /* overflow: hidden; */
+}
+
+
+.listalka div {
+  display: block;
+  width: 51.39vw;
+  height: 31.04vw;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+}
+
+.one {
+  background: url(../images/1.png);
+  background-size: 100%;
+}
+.two {
+  background: url(../images/2.png);
+  background-size: 100%;
+}
+.three {
+  background: url(../images/3.png);
+  background-size: 100%;
+}
+.four {
+  background: url(../images/4.png);
+  background-size: 100%;
+}
+.five {
+  background: url(../images/5.png);
+  background-size: 100%;
+}
+.six {
+  background: url(../images/6.png);
+  background-size: 100%;
+}
+.seven {
+  background: url(../images/7.png);
+  background-size: 100%;
+}
+
+.view4 {
+  width: 100%;
+  height: 93.5vw;
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+}
+
+.h3 {
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 3.33vw;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 2.61vw;
+}
+
+
+.text {
+  position: relative;
+  top: 3.61vw;
+  width: 23.40vw;
+  height: 6.25vw;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 1.94vw;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.textl {
+  position: relative;
+  top: 3.61vw;
+  left: 9.86vw;
+  width: 30.63vw;
+  height: 6.25vw;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 1.94vw;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.card1 {
+  position: absolute;
+  background: white;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  transform: rotate(339deg);
+  width: 38.61vw;
+  height: 28.13vw;
+  top: 21.25vw;
+  left: 7.46vw;
+}
+
+.img1 {
+  position: relative;
+  width: 32.50vw;
+  height: 26.88vw;
+  top: -6.53vw;
+  left: 8.13vw;
+  background: url(../images/img1.svg);
+  background-size: 100%;
+}
+
+.card2 {
+  position: absolute;
+  background: white;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  transform: rotate(12deg);
+  width: 38.61vw;
+  height: 28.13vw;
+  top: 16.25vw;
+  left: 54.46vw;
+}
+
+.img2 {
+  position: relative;
+  width: 25.56vw;
+  height: 24.99vw;
+  top: -2.50vw;
+  left: -2.15vw;
+  background: url(../images/img2.svg);
+  background-size: 100%;
+}
+
+.card3 {
+  position: absolute;
+  background: white;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  transform: rotate(13deg);
+  width: 38.61vw;
+  height: 28.13vw;
+  top: 35.25vw;
+  left: 34.46vw;
+}
+
+.img3 {
+  position: relative;
+  width: 31.81vw;
+  height: 22.22vw;
+  top: -1.18vw;
+  left: 7.15vw;
+  background: url(../images/img3.svg);
+  background-size: 100%;
+}
+
+.card4 {
+  position: absolute;
+  background: white;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  transform: rotate(341deg);
+  width: 38.61vw;
+  height: 28.13vw;
+  top: 54.25vw;
+  left: 9.46vw;
+}
+
+.img4 {
+  position: relative;
+  width: 24.72vw;
+  height: 22.22vw;
+  left: 14.72vw;
+  top: -1.94vw;
+  background: url(../images/img4.svg);
+  background-size: 100%;
+}
+
+.card5 {
+  position: absolute;
+  background: white;
+  outline: 0.42vw solid black;
+  border-radius: 3.47vw;
+  transform: rotate(338deg);
+  width: 38.61vw;
+  height: 28.13vw;
+  top: 55.25vw;
+  left: 53.46vw;
+}
+
+.card5:hover {
+  z-index: 1;
+  scale: 1.02;
+  transition: 0.2s ease-out;
+}
+
+.card4:hover {
+  z-index: 1;
+  scale: 1.02;
+  transition: 0.2s ease-out;
+}
+
+.card3:hover {
+  z-index: 1;
+  scale: 1.02;
+  transition: 0.2s ease-out;
+}
+
+.card2:hover {
+  z-index: 1;
+  scale: 1.02;
+  transition: 0.2s ease-out;
+}
+
+.card1:hover {
+  z-index: 1;
+  scale: 1.02;
+  transition: 0.2s ease-out;
+}
+
+.img5 {
+  position: relative;
+  width: 32.64vw;
+  height: 11.88vw;
+  top: 9.10vw;
+  left: 2.78vw;
+  background: url(../images/img5.svg);
+  background-size: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 7.5vw;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3.47vw 0;
+  overflow: hidden;
+
+}
+
+.h4 {
+  position: relative;
+  font-family: 'TT Chocolates Educational';
+  font-weight: 700;
+  font-size: 1.94vw;
+  line-height: 1.8;
+  color: white;
+  display: block;
+  vertical-align: middle;
+  margin: 0 0 0 2.78vw;
+}
+
+.logo {
+  position: relative;
+  width: 16.67vw;
+  height: 6.94vw;
+  background: url(../images/hselogo.png);
+  background-size: 100%;
+  margin: 0 2.78vw 0 0;
+}
