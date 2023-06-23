@@ -1,3 +1,12 @@
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+body, html {
+  overflow-x: hidden;
+  clip: rect(auto, auto, auto, auto);
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -389,15 +398,38 @@ a {
   overflow: hidden;
 }
 
+.container {
+  position: relative;
+  height: 100%;
+  overflow-x: auto;
+  clip: rect(auto, auto, auto, auto);
+}
+.slider {
+  margin: 3vw 3vw;
+  margin-bottom: 0;
+  border-radius: 2%;
+  background-size: cover;
+  transition: 1s;
+
+}
+.container::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.listalka::-moz-scrollbar {
+  width: 0;
+}
+
 .listalka {
   position: relative;
-  height: 55.69vw;
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2.08vw;
-  /* overflow: hidden; */
+  width: 400vw;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  background-size: cover;
 }
 
 
