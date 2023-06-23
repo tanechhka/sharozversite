@@ -399,46 +399,23 @@ a {
 }
 
 .container {
-  position: relative;
-  height: 100%;
-  overflow-x: auto;
-  clip: rect(auto, auto, auto, auto);
-}
-.slider {
-  margin: 3vw 3vw;
-  margin-bottom: 0;
-  border-radius: 2%;
-  background-size: cover;
-  transition: 1s;
-
-}
-.container::-webkit-scrollbar {
-  display: none;
-  width: 0;
-}
-
-.listalka::-moz-scrollbar {
-  width: 0;
-}
-
-.listalka {
-  position: relative;
-  width: 400vw;
-  height: auto;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 400vw;
+  height: 35.04vw;
   background-size: cover;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-
-.listalka div {
-  display: block;
+.slider {
   width: 51.39vw;
   height: 31.04vw;
+  object-fit: cover;
   outline: 0.42vw solid black;
   border-radius: 3.47vw;
+  margin: 1vw;
 }
 
 .one {
